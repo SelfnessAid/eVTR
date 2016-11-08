@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (3.4.1)
+  - Crashlytics (3.7.2):
+    - Fabric (~> 1.6.3)
+  - CVCalendar (1.2.9)
+  - Fabric (1.6.7)
+  - NVActivityIndicatorView (2.9)
+  - SCLAlertView (0.5.9)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4)
+  - Crashlytics
+  - CVCalendar (~> 1.2.9)
+  - Fabric
+  - NVActivityIndicatorView
+  - SCLAlertView
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Crashlytics: 130ab943f8c78cda7a814b434f270b2e2c8a3cba
+  CVCalendar: 0799256e0bc3b43e83b7e86c0729ce9ff0624cb6
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  NVActivityIndicatorView: 0084f6be71bdf4735b5424ebfb530b1e3db3276c
+  SCLAlertView: d7c6a48c7d340e60206d4ed0e8ebcbff3b9d2a44
+
+PODFILE CHECKSUM: e51814c2ac4e096f4408a267e2b3e47081c03978
+
+COCOAPODS: 1.0.1

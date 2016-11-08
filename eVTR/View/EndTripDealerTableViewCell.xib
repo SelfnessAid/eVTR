@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EndTripDealerTableViewCell" rowHeight="256" id="KGk-i7-Jjw" customClass="EndTripDealerTableViewCell" customModule="eVTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="230"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="229"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dealer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFf-MI-mg8">
+                        <rect key="frame" x="0.0" y="0.0" width="314" height="27"/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="iAN-gi-Dbv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a Dealer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecX-dT-324">
+                        <rect key="frame" x="0.0" y="27" width="314" height="26"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="BRa-s5-IVO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                        <color key="textColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <pickerView contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="xLU-GM-751">
+                        <rect key="frame" x="21" y="53" width="273" height="90"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="XqB-8L-VAv"/>
+                        </constraints>
+                        <connections>
+                            <outlet property="dataSource" destination="KGk-i7-Jjw" id="B89-zD-CQV"/>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="5Pb-1q-CbQ"/>
+                        </connections>
+                    </pickerView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9t-3g-pe3">
+                        <rect key="frame" x="136" y="148" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="9QO-7l-hfr"/>
+                            <constraint firstAttribute="height" constant="21" id="ZJH-Ae-jGp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search by Dealer Name or Permit" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sL0-MG-auY">
+                        <rect key="frame" x="14" y="179" width="285" height="40"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="dEK-aY-d94"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="done"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sL0-MG-auY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="6" id="0Ha-7c-QJY"/>
+                    <constraint firstItem="rFf-MI-mg8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="4n1-56-RHa"/>
+                    <constraint firstItem="xLU-GM-751" firstAttribute="top" secondItem="ecX-dT-324" secondAttribute="bottom" id="BtU-yd-3Xz"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="sL0-MG-auY" secondAttribute="trailing" constant="7" id="EC7-Nm-CXp"/>
+                    <constraint firstItem="ecX-dT-324" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="EO4-20-y1U"/>
+                    <constraint firstAttribute="trailing" secondItem="ecX-dT-324" secondAttribute="trailing" id="JQq-61-dJ6"/>
+                    <constraint firstItem="w9t-3g-pe3" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Nby-Xs-ARS"/>
+                    <constraint firstItem="w9t-3g-pe3" firstAttribute="top" secondItem="xLU-GM-751" secondAttribute="bottom" constant="5" id="SYg-iy-66H"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="xLU-GM-751" secondAttribute="trailing" constant="12" id="WdU-0l-2Va"/>
+                    <constraint firstItem="ecX-dT-324" firstAttribute="top" secondItem="rFf-MI-mg8" secondAttribute="bottom" id="k03-Tf-IKh"/>
+                    <constraint firstItem="xLU-GM-751" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="13" id="ljO-m2-LxU"/>
+                    <constraint firstItem="sL0-MG-auY" firstAttribute="top" secondItem="w9t-3g-pe3" secondAttribute="bottom" constant="10" id="nNh-A5-Iii"/>
+                    <constraint firstAttribute="trailing" secondItem="rFf-MI-mg8" secondAttribute="trailing" id="wa4-4O-jaf"/>
+                    <constraint firstItem="rFf-MI-mg8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xPh-fv-nW0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="picker" destination="xLU-GM-751" id="Dyv-wG-W2N"/>
+                <outlet property="valueField" destination="sL0-MG-auY" id="7Z5-94-vyr"/>
+            </connections>
+            <point key="canvasLocation" x="366" y="335"/>
+        </tableViewCell>
+    </objects>
+</document>

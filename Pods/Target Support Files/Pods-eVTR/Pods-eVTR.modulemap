@@ -1,0 +1,6 @@
+framework module Pods_eVTR {
+  umbrella header "Pods-eVTR-umbrella.h"
+
+  export *
+  module * { export * }
+}

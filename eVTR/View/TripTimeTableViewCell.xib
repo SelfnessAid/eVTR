@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TripTimeTableViewCell" rowHeight="235" id="KGk-i7-Jjw" customClass="TripTimeTableViewCell" customModule="eVTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="235"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="234"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hoa-kl-zUP">
+                        <rect key="frame" x="0.0" y="0.0" width="314" height="27"/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="27" id="SGb-aJ-wy4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hour" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cob-qw-9Uc">
+                        <rect key="frame" x="0.0" y="27" width="314" height="26"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="cIL-W8-EJA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                        <color key="textColor" red="0.70196078431372544" green="0.70196078431372544" blue="0.70196078431372544" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SBs-Re-HLe">
+                        <rect key="frame" x="0.0" y="53" width="314" height="100"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Gn-8x-UMZ">
+                                <rect key="frame" x="7" y="9" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1Gn-8x-UMZ" secondAttribute="height" multiplier="1:1" id="KrN-bO-w8C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="QLR-b8-mxq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fep-S0-Djj">
+                                <rect key="frame" x="59" y="9" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="zwh-pB-f3S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Wn-ey-BZa">
+                                <rect key="frame" x="111" y="9" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="dFW-hp-q4G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="csK-LG-f0S">
+                                <rect key="frame" x="161" y="9" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="1sh-Zq-fkD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ClF-yK-Cqx">
+                                <rect key="frame" x="213" y="9" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BjT-Ek-VCT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCg-hD-GWU">
+                                <rect key="frame" x="265" y="9" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Yd6-mo-834"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akN-AO-mvs">
+                                <rect key="frame" x="7" y="52" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="XMk-dy-60X"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ny-hz-fcy">
+                                <rect key="frame" x="59" y="52" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Her-c3-CPg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCv-bn-e4z">
+                                <rect key="frame" x="111" y="52" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Wd5-aw-es2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkb-d8-TR7">
+                                <rect key="frame" x="161" y="52" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="10">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="d7Y-sm-S3e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SQT-FB-qgK">
+                                <rect key="frame" x="213" y="52" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="11">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="YyC-FS-a10"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLI-f8-kTX">
+                                <rect key="frame" x="265" y="52" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="12">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cellClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uRn-uq-TIX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MCg-hD-GWU" firstAttribute="width" secondItem="1Gn-8x-UMZ" secondAttribute="width" id="205-h3-zRK"/>
+                            <constraint firstItem="rLI-f8-kTX" firstAttribute="width" secondItem="MCg-hD-GWU" secondAttribute="width" id="744-lb-shO"/>
+                            <constraint firstItem="1Ny-hz-fcy" firstAttribute="centerX" secondItem="fep-S0-Djj" secondAttribute="centerX" id="92L-uv-igU"/>
+                            <constraint firstItem="ClF-yK-Cqx" firstAttribute="width" secondItem="1Gn-8x-UMZ" secondAttribute="width" id="Fbe-9z-fUd"/>
+                            <constraint firstItem="1Gn-8x-UMZ" firstAttribute="width" secondItem="SBs-Re-HLe" secondAttribute="width" multiplier="0.1307" id="GaP-bW-L0R"/>
+                            <constraint firstItem="ClF-yK-Cqx" firstAttribute="centerY" secondItem="1Gn-8x-UMZ" secondAttribute="centerY" id="HnM-Hd-Jke"/>
+                            <constraint firstAttribute="height" constant="100" id="KzX-cs-fAu"/>
+                            <constraint firstItem="akN-AO-mvs" firstAttribute="width" secondItem="1Gn-8x-UMZ" secondAttribute="width" id="MSD-zF-omD"/>
+                            <constraint firstItem="SQT-FB-qgK" firstAttribute="centerY" secondItem="akN-AO-mvs" secondAttribute="centerY" id="MVH-hm-AtB"/>
+                            <constraint firstItem="1Ny-hz-fcy" firstAttribute="width" secondItem="fep-S0-Djj" secondAttribute="width" id="MZp-Ug-rzL"/>
+                            <constraint firstItem="vCv-bn-e4z" firstAttribute="centerX" secondItem="2Wn-ey-BZa" secondAttribute="centerX" id="ODX-GU-Vu2"/>
+                            <constraint firstItem="SQT-FB-qgK" firstAttribute="centerX" secondItem="ClF-yK-Cqx" secondAttribute="centerX" id="OZd-LV-vqX"/>
+                            <constraint firstItem="MCg-hD-GWU" firstAttribute="centerY" secondItem="1Gn-8x-UMZ" secondAttribute="centerY" id="Q8g-Tg-CPv"/>
+                            <constraint firstItem="2Wn-ey-BZa" firstAttribute="centerX" secondItem="SBs-Re-HLe" secondAttribute="centerX" multiplier="0.84" id="Qat-NT-BXt"/>
+                            <constraint firstItem="vCv-bn-e4z" firstAttribute="height" secondItem="2Wn-ey-BZa" secondAttribute="height" id="Rog-Jr-teT"/>
+                            <constraint firstItem="rLI-f8-kTX" firstAttribute="height" secondItem="MCg-hD-GWU" secondAttribute="height" id="TqX-4s-rki"/>
+                            <constraint firstItem="csK-LG-f0S" firstAttribute="centerY" secondItem="1Gn-8x-UMZ" secondAttribute="centerY" id="UAN-96-tM5"/>
+                            <constraint firstItem="ClF-yK-Cqx" firstAttribute="height" secondItem="1Gn-8x-UMZ" secondAttribute="height" id="VMc-O6-9GS"/>
+                            <constraint firstItem="ClF-yK-Cqx" firstAttribute="centerX" secondItem="SBs-Re-HLe" secondAttribute="centerX" multiplier="1.49" id="VN0-qe-gFB"/>
+                            <constraint firstItem="2Wn-ey-BZa" firstAttribute="centerY" secondItem="1Gn-8x-UMZ" secondAttribute="centerY" id="WdD-7x-DA2"/>
+                            <constraint firstItem="fep-S0-Djj" firstAttribute="width" secondItem="1Gn-8x-UMZ" secondAttribute="width" id="ZSw-Ug-iNs"/>
+                            <constraint firstItem="csK-LG-f0S" firstAttribute="centerX" secondItem="SBs-Re-HLe" secondAttribute="centerX" multiplier="1.16" id="a7t-dV-Iyg"/>
+                            <constraint firstItem="vCv-bn-e4z" firstAttribute="width" secondItem="2Wn-ey-BZa" secondAttribute="width" id="arv-HM-wzX"/>
+                            <constraint firstItem="fep-S0-Djj" firstAttribute="centerY" secondItem="1Gn-8x-UMZ" secondAttribute="centerY" id="dGz-Ir-PSb"/>
+                            <constraint firstItem="1Gn-8x-UMZ" firstAttribute="centerX" secondItem="SBs-Re-HLe" secondAttribute="centerX" multiplier="0.18" id="dOT-bd-p1l"/>
+                            <constraint firstItem="rLI-f8-kTX" firstAttribute="centerX" secondItem="MCg-hD-GWU" secondAttribute="centerX" id="e3b-GY-3Ut"/>
+                            <constraint firstItem="csK-LG-f0S" firstAttribute="height" secondItem="1Gn-8x-UMZ" secondAttribute="height" id="iLQ-p8-8GE"/>
+                            <constraint firstItem="fep-S0-Djj" firstAttribute="height" secondItem="1Gn-8x-UMZ" secondAttribute="height" id="jNo-xW-GSd"/>
+                            <constraint firstItem="akN-AO-mvs" firstAttribute="height" secondItem="1Gn-8x-UMZ" secondAttribute="height" id="jVs-Iu-84Q"/>
+                            <constraint firstItem="SQT-FB-qgK" firstAttribute="height" secondItem="ClF-yK-Cqx" secondAttribute="height" id="jg6-tq-mPo"/>
+                            <constraint firstItem="1Gn-8x-UMZ" firstAttribute="centerY" secondItem="SBs-Re-HLe" secondAttribute="centerY" multiplier="0.59" id="kZ9-ug-5hL"/>
+                            <constraint firstItem="akN-AO-mvs" firstAttribute="centerY" secondItem="SBs-Re-HLe" secondAttribute="centerY" multiplier="1.45" id="mft-26-aIg"/>
+                            <constraint firstItem="akN-AO-mvs" firstAttribute="centerX" secondItem="1Gn-8x-UMZ" secondAttribute="centerX" id="nf3-Gx-soG"/>
+                            <constraint firstItem="rLI-f8-kTX" firstAttribute="centerY" secondItem="akN-AO-mvs" secondAttribute="centerY" id="oTQ-be-Z40"/>
+                            <constraint firstItem="2Wn-ey-BZa" firstAttribute="width" secondItem="1Gn-8x-UMZ" secondAttribute="width" id="psf-vL-Elb"/>
+                            <constraint firstItem="1Ny-hz-fcy" firstAttribute="height" secondItem="fep-S0-Djj" secondAttribute="height" id="rcp-ac-JsD"/>
+                            <constraint firstItem="gkb-d8-TR7" firstAttribute="centerX" secondItem="csK-LG-f0S" secondAttribute="centerX" id="s8I-lx-Imo"/>
+                            <constraint firstItem="gkb-d8-TR7" firstAttribute="height" secondItem="csK-LG-f0S" secondAttribute="height" id="sd0-ed-fPy"/>
+                            <constraint firstItem="fep-S0-Djj" firstAttribute="centerX" secondItem="SBs-Re-HLe" secondAttribute="centerX" multiplier="0.51" id="tYu-dm-VVn"/>
+                            <constraint firstItem="1Ny-hz-fcy" firstAttribute="centerY" secondItem="akN-AO-mvs" secondAttribute="centerY" id="u6a-pY-2ir"/>
+                            <constraint firstItem="vCv-bn-e4z" firstAttribute="centerY" secondItem="akN-AO-mvs" secondAttribute="centerY" id="uLa-eE-IlL"/>
+                            <constraint firstItem="2Wn-ey-BZa" firstAttribute="height" secondItem="1Gn-8x-UMZ" secondAttribute="height" id="unR-lY-nyk"/>
+                            <constraint firstItem="gkb-d8-TR7" firstAttribute="width" secondItem="csK-LG-f0S" secondAttribute="width" id="vIC-Bt-QG2"/>
+                            <constraint firstItem="MCg-hD-GWU" firstAttribute="centerX" secondItem="SBs-Re-HLe" secondAttribute="centerX" multiplier="1.82" id="x8V-Kb-VlI"/>
+                            <constraint firstItem="MCg-hD-GWU" firstAttribute="height" secondItem="1Gn-8x-UMZ" secondAttribute="height" id="yJT-cQ-GXb"/>
+                            <constraint firstItem="gkb-d8-TR7" firstAttribute="centerY" secondItem="akN-AO-mvs" secondAttribute="centerY" id="yYM-2a-zlq"/>
+                            <constraint firstItem="SQT-FB-qgK" firstAttribute="width" secondItem="ClF-yK-Cqx" secondAttribute="width" id="z6U-ka-5wF"/>
+                            <constraint firstItem="csK-LG-f0S" firstAttribute="width" secondItem="1Gn-8x-UMZ" secondAttribute="width" id="zbu-fN-7zV"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3dV-3F-sQl">
+                        <rect key="frame" x="0.0" y="153" width="314" height="27"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Minutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NU-YB-K4F">
+                                <rect key="frame" x="0.0" y="0.0" width="195" height="27"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="yta-sO-Eux"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                                <color key="textColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meridian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V25-DF-aoO">
+                                <rect key="frame" x="195" y="0.0" width="119" height="27"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="13"/>
+                                <color key="textColor" red="0.70196078429999997" green="0.70196078429999997" blue="0.70196078429999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1NU-YB-K4F" firstAttribute="leading" secondItem="3dV-3F-sQl" secondAttribute="leading" id="0cy-lc-cB3"/>
+                            <constraint firstItem="1NU-YB-K4F" firstAttribute="top" secondItem="3dV-3F-sQl" secondAttribute="top" id="D5X-lQ-GGY"/>
+                            <constraint firstAttribute="height" constant="27" id="ELz-Qs-DxR"/>
+                            <constraint firstItem="V25-DF-aoO" firstAttribute="top" secondItem="3dV-3F-sQl" secondAttribute="top" id="EP5-hd-UfQ"/>
+                            <constraint firstItem="V25-DF-aoO" firstAttribute="width" secondItem="3dV-3F-sQl" secondAttribute="width" multiplier="0.379" id="Kff-XV-xTg"/>
+                            <constraint firstItem="V25-DF-aoO" firstAttribute="height" secondItem="1NU-YB-K4F" secondAttribute="height" id="LHM-Sp-fxp"/>
+                            <constraint firstAttribute="trailing" secondItem="V25-DF-aoO" secondAttribute="trailing" id="URQ-vg-NtK"/>
+                            <constraint firstItem="1NU-YB-K4F" firstAttribute="width" secondItem="3dV-3F-sQl" secondAttribute="width" multiplier="0.6209" id="VsW-Ip-HSU"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VF9-bj-IPD">
+                        <rect key="frame" x="0.0" y="180" width="314" height="58"/>
+                        <subviews>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wt2-Ld-tWz">
+                                <rect key="frame" x="7" y="8" width="42" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wt2-Ld-tWz" secondAttribute="height" multiplier="1:1" id="jhu-37-cF2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="00">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="minButtonClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="IHK-hT-Jaj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeP-uK-6nH">
+                                <rect key="frame" x="59" y="8" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="15">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="minButtonClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Bn9-FY-ufd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toN-d7-BiM">
+                                <rect key="frame" x="111" y="8" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="30">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="minButtonClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="l2U-QJ-LG5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="45" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SaT-Ix-ddE">
+                                <rect key="frame" x="161" y="8" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="45">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="minButtonClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mkI-dg-ZWe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="46" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISZ-a0-stU">
+                                <rect key="frame" x="213" y="8" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="AM">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="meridianButtonClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="SxF-hc-7Jm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="47" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bs-L1-gjb">
+                                <rect key="frame" x="265" y="8" width="42" height="42"/>
+                                <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                                <state key="normal" title="PM">
+                                    <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="meridianButtonClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fEv-Tm-5jC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wt2-Ld-tWz" firstAttribute="centerY" secondItem="VF9-bj-IPD" secondAttribute="centerY" id="1j3-iT-m46"/>
+                            <constraint firstItem="GeP-uK-6nH" firstAttribute="height" secondItem="wt2-Ld-tWz" secondAttribute="height" id="1wn-sc-fk5"/>
+                            <constraint firstAttribute="height" constant="58" id="3Lr-ho-2AA"/>
+                            <constraint firstItem="SaT-Ix-ddE" firstAttribute="width" secondItem="wt2-Ld-tWz" secondAttribute="width" id="76I-KY-2CR"/>
+                            <constraint firstItem="0Bs-L1-gjb" firstAttribute="height" secondItem="wt2-Ld-tWz" secondAttribute="height" id="87o-E1-HFF"/>
+                            <constraint firstItem="GeP-uK-6nH" firstAttribute="width" secondItem="wt2-Ld-tWz" secondAttribute="width" id="AVk-47-pnQ"/>
+                            <constraint firstItem="SaT-Ix-ddE" firstAttribute="centerY" secondItem="wt2-Ld-tWz" secondAttribute="centerY" id="GMh-xV-4kg"/>
+                            <constraint firstItem="GeP-uK-6nH" firstAttribute="centerY" secondItem="wt2-Ld-tWz" secondAttribute="centerY" id="GlH-JT-cVX"/>
+                            <constraint firstItem="ISZ-a0-stU" firstAttribute="centerY" secondItem="wt2-Ld-tWz" secondAttribute="centerY" id="LSe-uu-pTe"/>
+                            <constraint firstItem="ISZ-a0-stU" firstAttribute="width" secondItem="wt2-Ld-tWz" secondAttribute="width" id="MKa-Ac-aSR"/>
+                            <constraint firstItem="SaT-Ix-ddE" firstAttribute="height" secondItem="wt2-Ld-tWz" secondAttribute="height" id="Nre-yY-4A9"/>
+                            <constraint firstItem="wt2-Ld-tWz" firstAttribute="width" secondItem="VF9-bj-IPD" secondAttribute="width" multiplier="0.1307" id="Pkq-qa-x8a"/>
+                            <constraint firstItem="ISZ-a0-stU" firstAttribute="height" secondItem="wt2-Ld-tWz" secondAttribute="height" id="QU0-je-6Mv"/>
+                            <constraint firstItem="wt2-Ld-tWz" firstAttribute="centerX" secondItem="VF9-bj-IPD" secondAttribute="centerX" multiplier="0.18" id="QqK-1v-EbY"/>
+                            <constraint firstItem="toN-d7-BiM" firstAttribute="centerY" secondItem="wt2-Ld-tWz" secondAttribute="centerY" id="SkM-nP-eoy"/>
+                            <constraint firstItem="0Bs-L1-gjb" firstAttribute="centerY" secondItem="wt2-Ld-tWz" secondAttribute="centerY" id="Vru-La-pZl"/>
+                            <constraint firstItem="0Bs-L1-gjb" firstAttribute="width" secondItem="wt2-Ld-tWz" secondAttribute="width" id="fgk-Fg-uwB"/>
+                            <constraint firstItem="toN-d7-BiM" firstAttribute="width" secondItem="wt2-Ld-tWz" secondAttribute="width" id="rB1-ap-6Jm"/>
+                            <constraint firstItem="toN-d7-BiM" firstAttribute="height" secondItem="wt2-Ld-tWz" secondAttribute="height" id="rS1-lL-2mq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hoa-kl-zUP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0bu-tc-xNa"/>
+                    <constraint firstItem="cob-qw-9Uc" firstAttribute="width" secondItem="hoa-kl-zUP" secondAttribute="width" id="32n-Na-QFk"/>
+                    <constraint firstItem="cob-qw-9Uc" firstAttribute="top" secondItem="hoa-kl-zUP" secondAttribute="bottom" id="7Co-8X-P0v"/>
+                    <constraint firstItem="3dV-3F-sQl" firstAttribute="top" secondItem="SBs-Re-HLe" secondAttribute="bottom" id="8Mc-Sh-R1A"/>
+                    <constraint firstItem="VF9-bj-IPD" firstAttribute="width" secondItem="3dV-3F-sQl" secondAttribute="width" id="DmI-YO-pqZ"/>
+                    <constraint firstItem="ISZ-a0-stU" firstAttribute="centerX" secondItem="SQT-FB-qgK" secondAttribute="centerX" id="Gp3-lj-0Vw"/>
+                    <constraint firstItem="SBs-Re-HLe" firstAttribute="width" secondItem="cob-qw-9Uc" secondAttribute="width" id="K5u-EA-15g"/>
+                    <constraint firstItem="GeP-uK-6nH" firstAttribute="centerX" secondItem="1Ny-hz-fcy" secondAttribute="centerX" id="LU6-Xt-KMy"/>
+                    <constraint firstItem="3dV-3F-sQl" firstAttribute="centerX" secondItem="SBs-Re-HLe" secondAttribute="centerX" id="MiH-7q-eDt"/>
+                    <constraint firstItem="SBs-Re-HLe" firstAttribute="centerX" secondItem="cob-qw-9Uc" secondAttribute="centerX" id="Ojg-5r-E1e"/>
+                    <constraint firstItem="toN-d7-BiM" firstAttribute="centerX" secondItem="vCv-bn-e4z" secondAttribute="centerX" id="OrO-HW-CS7"/>
+                    <constraint firstItem="SaT-Ix-ddE" firstAttribute="centerX" secondItem="gkb-d8-TR7" secondAttribute="centerX" id="VYm-Og-B8T"/>
+                    <constraint firstItem="SBs-Re-HLe" firstAttribute="top" secondItem="cob-qw-9Uc" secondAttribute="bottom" id="Vov-LQ-8pO"/>
+                    <constraint firstItem="cob-qw-9Uc" firstAttribute="centerX" secondItem="hoa-kl-zUP" secondAttribute="centerX" id="asm-yX-i6l"/>
+                    <constraint firstItem="hoa-kl-zUP" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" id="j9n-gl-gIC"/>
+                    <constraint firstItem="0Bs-L1-gjb" firstAttribute="centerX" secondItem="rLI-f8-kTX" secondAttribute="centerX" id="jmn-gH-QbS"/>
+                    <constraint firstItem="VF9-bj-IPD" firstAttribute="top" secondItem="3dV-3F-sQl" secondAttribute="bottom" id="oH6-jF-ArQ"/>
+                    <constraint firstItem="3dV-3F-sQl" firstAttribute="width" secondItem="SBs-Re-HLe" secondAttribute="width" id="pKr-3B-IiN"/>
+                    <constraint firstItem="hoa-kl-zUP" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="uVf-l6-dwt"/>
+                    <constraint firstItem="VF9-bj-IPD" firstAttribute="centerX" secondItem="3dV-3F-sQl" secondAttribute="centerX" id="wCf-nD-S6p"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="amButton" destination="ISZ-a0-stU" id="1xs-uZ-u1Z"/>
+                <outlet property="hour10Button" destination="gkb-d8-TR7" id="PhF-xZ-0JL"/>
+                <outlet property="hour11Button" destination="SQT-FB-qgK" id="XLM-hX-BiB"/>
+                <outlet property="hour12Button" destination="rLI-f8-kTX" id="gAK-5B-Ajw"/>
+                <outlet property="hour1Button" destination="1Gn-8x-UMZ" id="wGg-oR-rfm"/>
+                <outlet property="hour2Button" destination="fep-S0-Djj" id="hh9-8J-qOr"/>
+                <outlet property="hour3Button" destination="2Wn-ey-BZa" id="9Pj-s0-xWX"/>
+                <outlet property="hour4Button" destination="csK-LG-f0S" id="pbS-Ng-IQJ"/>
+                <outlet property="hour5Button" destination="ClF-yK-Cqx" id="gkn-NB-xzZ"/>
+                <outlet property="hour6Button" destination="MCg-hD-GWU" id="wD8-1i-gs5"/>
+                <outlet property="hour7Button" destination="akN-AO-mvs" id="12a-HQ-YE2"/>
+                <outlet property="hour8Button" destination="1Ny-hz-fcy" id="GPP-1I-V2H"/>
+                <outlet property="hour9Button" destination="vCv-bn-e4z" id="WYu-CN-h3G"/>
+                <outlet property="min1Button" destination="wt2-Ld-tWz" id="1bn-v5-Bux"/>
+                <outlet property="min2Button" destination="GeP-uK-6nH" id="1i0-bc-8kJ"/>
+                <outlet property="min3Button" destination="toN-d7-BiM" id="VOh-SI-soy"/>
+                <outlet property="min4Button" destination="SaT-Ix-ddE" id="9rV-NE-UbP"/>
+                <outlet property="pmButton" destination="0Bs-L1-gjb" id="zJo-vr-1bf"/>
+                <outlet property="titleLabel" destination="hoa-kl-zUP" id="YuW-wt-bhT"/>
+            </connections>
+            <point key="canvasLocation" x="564.5" y="427.5"/>
+        </tableViewCell>
+    </objects>
+</document>

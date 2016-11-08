@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </mutableArray>
+        <mutableArray key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="GearInfoTableViewCell" customModule="eVTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="196"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="195"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gear" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ng-MF-rdx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="35"/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="u1l-VN-HSl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c1p-fY-gy2" userLabel="View - Code">
+                        <rect key="frame" x="0.0" y="35" width="375" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Code: XXXXXX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPp-XE-MKD">
+                                <rect key="frame" x="16" y="0.0" width="297" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="toV-Bi-rPB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxz-2F-oK5">
+                                <rect key="frame" x="321" y="0.0" width="46" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="OOn-6R-xQV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" red="0.086274509799999996" green="0.58431372550000005" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JPp-XE-MKD" firstAttribute="top" secondItem="c1p-fY-gy2" secondAttribute="top" id="KV9-AR-oNZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Qxz-2F-oK5" secondAttribute="trailing" constant="8" id="PQd-o1-yAR"/>
+                            <constraint firstItem="JPp-XE-MKD" firstAttribute="leading" secondItem="c1p-fY-gy2" secondAttribute="leading" constant="16" id="ZXU-FM-KZ6"/>
+                            <constraint firstAttribute="bottom" secondItem="Qxz-2F-oK5" secondAttribute="bottom" id="Zhh-b0-qeE"/>
+                            <constraint firstItem="Qxz-2F-oK5" firstAttribute="top" secondItem="c1p-fY-gy2" secondAttribute="top" id="f1m-fB-MAj"/>
+                            <constraint firstAttribute="height" constant="40" id="g4m-xO-prD"/>
+                            <constraint firstItem="Qxz-2F-oK5" firstAttribute="leading" secondItem="JPp-XE-MKD" secondAttribute="trailing" constant="8" id="jap-UB-scC"/>
+                            <constraint firstAttribute="bottom" secondItem="JPp-XE-MKD" secondAttribute="bottom" id="xoz-lc-Cyf"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KAy-B3-Fal" userLabel="View - Mesh">
+                        <rect key="frame" x="0.0" y="75" width="375" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mesh / Ring Size: XXX " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8T-72-H3d">
+                                <rect key="frame" x="16" y="0.0" width="297" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dEG-E4-Ffg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ym2-bW-8W0">
+                                <rect key="frame" x="321" y="0.0" width="46" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="e44-nT-80t"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" red="0.086274509799999996" green="0.58431372550000005" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="q8T-72-H3d" secondAttribute="bottom" id="0rG-Vd-ep9"/>
+                            <constraint firstItem="q8T-72-H3d" firstAttribute="leading" secondItem="KAy-B3-Fal" secondAttribute="leading" constant="16" id="4Ku-XF-SaA"/>
+                            <constraint firstItem="Ym2-bW-8W0" firstAttribute="leading" secondItem="q8T-72-H3d" secondAttribute="trailing" constant="8" id="KMk-fp-5PM"/>
+                            <constraint firstAttribute="bottom" secondItem="Ym2-bW-8W0" secondAttribute="bottom" id="Qpb-kG-kpS"/>
+                            <constraint firstAttribute="trailing" secondItem="Ym2-bW-8W0" secondAttribute="trailing" constant="8" id="SV0-C6-7Hn"/>
+                            <constraint firstItem="q8T-72-H3d" firstAttribute="top" secondItem="KAy-B3-Fal" secondAttribute="top" id="ggA-uu-fbA"/>
+                            <constraint firstItem="Ym2-bW-8W0" firstAttribute="top" secondItem="KAy-B3-Fal" secondAttribute="top" id="vOi-sc-dF2"/>
+                            <constraint firstAttribute="height" constant="40" id="wTT-5d-Gru"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QcP-Fl-3Na" userLabel="View - Gear Quantity">
+                        <rect key="frame" x="0.0" y="115" width="375" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gear Quantity: XXX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKb-nz-5GU">
+                                <rect key="frame" x="16" y="0.0" width="297" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ugm-LQ-9F9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cQd-Im-RUL">
+                                <rect key="frame" x="321" y="0.0" width="46" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="hO7-6a-Qhq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" red="0.086274509799999996" green="0.58431372550000005" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TKb-nz-5GU" firstAttribute="top" secondItem="QcP-Fl-3Na" secondAttribute="top" id="OQW-nc-PKw"/>
+                            <constraint firstAttribute="trailing" secondItem="cQd-Im-RUL" secondAttribute="trailing" constant="8" id="P8N-Qd-znu"/>
+                            <constraint firstAttribute="height" constant="40" id="W06-TT-kHB"/>
+                            <constraint firstAttribute="bottom" secondItem="cQd-Im-RUL" secondAttribute="bottom" id="XeE-ii-M63"/>
+                            <constraint firstItem="TKb-nz-5GU" firstAttribute="leading" secondItem="QcP-Fl-3Na" secondAttribute="leading" constant="16" id="d5x-zN-KQf"/>
+                            <constraint firstAttribute="bottom" secondItem="TKb-nz-5GU" secondAttribute="bottom" id="l6h-li-AtG"/>
+                            <constraint firstItem="cQd-Im-RUL" firstAttribute="top" secondItem="QcP-Fl-3Na" secondAttribute="top" id="mpl-em-XBx"/>
+                            <constraint firstItem="cQd-Im-RUL" firstAttribute="leading" secondItem="TKb-nz-5GU" secondAttribute="trailing" constant="8" id="qh6-Qp-9fE"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tu3-Vv-vbO" userLabel="View - Gear Size">
+                        <rect key="frame" x="0.0" y="155" width="375" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gear Size: XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgV-iz-Pc0">
+                                <rect key="frame" x="16" y="0.0" width="297" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Zvw-r2-ekG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpn-bu-cOA">
+                                <rect key="frame" x="321" y="0.0" width="46" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="yXe-ch-1wR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" red="0.086274509799999996" green="0.58431372550000005" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="qpn-bu-cOA" secondAttribute="bottom" id="04T-Yb-VkL"/>
+                            <constraint firstAttribute="height" constant="40" id="BeH-Hv-fz3"/>
+                            <constraint firstItem="sgV-iz-Pc0" firstAttribute="leading" secondItem="tu3-Vv-vbO" secondAttribute="leading" constant="16" id="Kbu-CZ-rY8"/>
+                            <constraint firstAttribute="trailing" secondItem="qpn-bu-cOA" secondAttribute="trailing" constant="8" id="Ko4-Hq-fpL"/>
+                            <constraint firstAttribute="bottom" secondItem="sgV-iz-Pc0" secondAttribute="bottom" id="ToO-S8-4IZ"/>
+                            <constraint firstItem="qpn-bu-cOA" firstAttribute="leading" secondItem="sgV-iz-Pc0" secondAttribute="trailing" constant="8" id="ZNL-JE-SAJ"/>
+                            <constraint firstItem="qpn-bu-cOA" firstAttribute="top" secondItem="tu3-Vv-vbO" secondAttribute="top" id="aiK-8D-9o0"/>
+                            <constraint firstItem="sgV-iz-Pc0" firstAttribute="top" secondItem="tu3-Vv-vbO" secondAttribute="top" id="k6G-I4-nAO"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="0Ng-MF-rdx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0il-er-w9a"/>
+                    <constraint firstAttribute="trailing" secondItem="QcP-Fl-3Na" secondAttribute="trailing" id="8MR-oP-CO9"/>
+                    <constraint firstItem="QcP-Fl-3Na" firstAttribute="top" secondItem="KAy-B3-Fal" secondAttribute="bottom" id="B4c-aP-ffG"/>
+                    <constraint firstAttribute="trailing" secondItem="c1p-fY-gy2" secondAttribute="trailing" id="Cza-t9-BSu"/>
+                    <constraint firstAttribute="trailing" secondItem="0Ng-MF-rdx" secondAttribute="trailing" id="DID-Ao-F6w"/>
+                    <constraint firstItem="0Ng-MF-rdx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Lix-xb-JIt"/>
+                    <constraint firstItem="c1p-fY-gy2" firstAttribute="top" secondItem="0Ng-MF-rdx" secondAttribute="bottom" id="U6j-Vy-Ld0"/>
+                    <constraint firstItem="KAy-B3-Fal" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="VNB-2P-JZq"/>
+                    <constraint firstItem="tu3-Vv-vbO" firstAttribute="top" secondItem="QcP-Fl-3Na" secondAttribute="bottom" id="WVR-1s-HtT"/>
+                    <constraint firstItem="QcP-Fl-3Na" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="a3p-VI-4rF"/>
+                    <constraint firstAttribute="trailing" secondItem="KAy-B3-Fal" secondAttribute="trailing" id="aK7-bK-3sc"/>
+                    <constraint firstItem="c1p-fY-gy2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cUr-f1-4aP"/>
+                    <constraint firstItem="KAy-B3-Fal" firstAttribute="top" secondItem="c1p-fY-gy2" secondAttribute="bottom" id="eWl-1W-LNY"/>
+                    <constraint firstAttribute="trailing" secondItem="tu3-Vv-vbO" secondAttribute="trailing" id="qgD-wX-KO6"/>
+                    <constraint firstItem="tu3-Vv-vbO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rEZ-h1-tNj"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+    </objects>
+</document>

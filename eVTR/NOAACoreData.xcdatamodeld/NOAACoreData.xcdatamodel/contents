@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15A284" minimumToolsVersion="Xcode 7.0">
+    <entity name="Activity" representedClassName=".ActivityEntity" syncable="YES">
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ChartArea" representedClassName=".ChartAreaEntity" syncable="YES">
+        <attribute name="area" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Integer 16" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="tem_minute_square" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Dealers" representedClassName=".DealersEntity" syncable="YES">
+        <attribute name="dealer_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealer_permit_number" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Gear" representedClassName=".GearEntity" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hauls_maximum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="hauls_minimum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mesh_maximum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mesh_minimum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity_maximum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="quantity_minimum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="size_maximum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="size_minimum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="soak_maximum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="soak_minimum" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="NoaaUser" syncable="YES">
+        <attribute name="client_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operator_key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vtr_preferences" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Operators" representedClassName=".OperatorsEntity" syncable="YES">
+        <attribute name="name_first" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_last" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_middle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operator_key" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Permits" representedClassName=".PermitsEntity" syncable="YES">
+        <attribute name="hull_id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pnum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ves_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Species" representedClassName=".SpeciesEntity" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syn" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="TripTypes" representedClassName=".TripTypesEntity" syncable="YES">
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="-378" positionY="6" width="128" height="58"/>
+        <element name="ChartArea" positionX="-72" positionY="9" width="128" height="105"/>
+        <element name="Dealers" positionX="-333" positionY="99" width="128" height="30"/>
+        <element name="Gear" positionX="-542" positionY="9" width="137" height="225"/>
+        <element name="NoaaUser" positionX="-225" positionY="9" width="128" height="118"/>
+        <element name="Operators" positionX="79" positionY="9" width="128" height="105"/>
+        <element name="Permits" positionX="234" positionY="9" width="128" height="90"/>
+        <element name="Species" positionX="378" positionY="9" width="128" height="90"/>
+        <element name="TripTypes" positionX="-324" positionY="117" width="128" height="30"/>
+    </elements>
+</model>

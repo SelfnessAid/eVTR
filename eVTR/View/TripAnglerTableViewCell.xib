@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="234" id="KGk-i7-Jjw" customClass="TripAnglerTableViewCell" customModule="eVTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="167"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Anglers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCd-Dp-Bzz">
+                        <rect key="frame" x="0.0" y="0.0" width="314" height="26"/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="haJ-Jf-dLp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AU8-6H-Hm8">
+                        <rect key="frame" x="64" y="34" width="40" height="40"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <state key="normal" title="1">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="anglersClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7q7-H9-0h5"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="smx-of-7af">
+                        <rect key="frame" x="112" y="34" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="smx-of-7af" secondAttribute="height" multiplier="1:1" id="35k-IA-2rc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <state key="normal" title="2">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="anglersClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="miy-wm-kHR"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pM2-6a-Xad">
+                        <rect key="frame" x="162" y="34" width="40" height="40"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <state key="normal" title="10">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="anglersClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="4Gv-O7-BOX"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGS-bV-SpX">
+                        <rect key="frame" x="212" y="34" width="40" height="40"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <state key="normal" title="20">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="anglersClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="5vB-u1-Y7P"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qId-8G-XoS">
+                        <rect key="frame" x="136" y="77" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="t1g-p0-fKb"/>
+                            <constraint firstAttribute="height" constant="21" id="w7z-wi-6fL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter number of anglers" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x3t-62-5Jj">
+                        <rect key="frame" x="14" y="118" width="285" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="QAp-l9-gDL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YGS-bV-SpX" firstAttribute="width" secondItem="smx-of-7af" secondAttribute="width" id="CcH-1i-I3g"/>
+                    <constraint firstItem="YGS-bV-SpX" firstAttribute="top" secondItem="smx-of-7af" secondAttribute="top" id="GV1-XP-iJL"/>
+                    <constraint firstItem="YGS-bV-SpX" firstAttribute="leading" secondItem="pM2-6a-Xad" secondAttribute="trailing" constant="10" id="IW4-ke-wZw"/>
+                    <constraint firstItem="pM2-6a-Xad" firstAttribute="width" secondItem="smx-of-7af" secondAttribute="width" id="Mfa-9A-UQA"/>
+                    <constraint firstItem="smx-of-7af" firstAttribute="leading" secondItem="AU8-6H-Hm8" secondAttribute="trailing" constant="8" id="N4R-SF-53W"/>
+                    <constraint firstItem="qId-8G-XoS" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="Ovr-eV-vF9"/>
+                    <constraint firstItem="YGS-bV-SpX" firstAttribute="height" secondItem="smx-of-7af" secondAttribute="height" id="Q9W-PO-UbP"/>
+                    <constraint firstItem="pM2-6a-Xad" firstAttribute="top" secondItem="smx-of-7af" secondAttribute="top" id="QFj-oY-dur"/>
+                    <constraint firstItem="pM2-6a-Xad" firstAttribute="height" secondItem="smx-of-7af" secondAttribute="height" id="Sop-Ih-KID"/>
+                    <constraint firstItem="x3t-62-5Jj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="Vfl-n6-2qX"/>
+                    <constraint firstAttribute="trailing" secondItem="gCd-Dp-Bzz" secondAttribute="trailing" id="WM0-f4-eQL"/>
+                    <constraint firstItem="smx-of-7af" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.127" id="WyX-if-BR4"/>
+                    <constraint firstItem="AU8-6H-Hm8" firstAttribute="top" secondItem="smx-of-7af" secondAttribute="top" id="XO4-ag-iMw"/>
+                    <constraint firstItem="pM2-6a-Xad" firstAttribute="leading" secondItem="smx-of-7af" secondAttribute="trailing" constant="10" id="aAR-U6-SEG"/>
+                    <constraint firstItem="qId-8G-XoS" firstAttribute="top" secondItem="pM2-6a-Xad" secondAttribute="bottom" constant="3" id="bab-D3-Olx"/>
+                    <constraint firstItem="gCd-Dp-Bzz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="fos-hc-8gB"/>
+                    <constraint firstItem="smx-of-7af" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-25.5" id="mCo-Kd-1n4"/>
+                    <constraint firstItem="AU8-6H-Hm8" firstAttribute="width" secondItem="smx-of-7af" secondAttribute="width" id="oRy-dL-zjI"/>
+                    <constraint firstItem="AU8-6H-Hm8" firstAttribute="height" secondItem="smx-of-7af" secondAttribute="height" id="pcI-DQ-SC1"/>
+                    <constraint firstItem="smx-of-7af" firstAttribute="top" secondItem="gCd-Dp-Bzz" secondAttribute="bottom" constant="8" id="rLM-Ki-W5j"/>
+                    <constraint firstItem="x3t-62-5Jj" firstAttribute="top" secondItem="qId-8G-XoS" secondAttribute="bottom" constant="20" id="svN-pY-aa3"/>
+                    <constraint firstItem="gCd-Dp-Bzz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="v1K-i6-2f1"/>
+                    <constraint firstAttribute="trailing" secondItem="x3t-62-5Jj" secondAttribute="trailing" constant="15" id="wiq-OQ-KVe"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnAnglers1" destination="AU8-6H-Hm8" id="tlM-hH-sEn"/>
+                <outlet property="btnAnglers10" destination="pM2-6a-Xad" id="TvO-vY-oNJ"/>
+                <outlet property="btnAnglers2" destination="smx-of-7af" id="DIf-2l-tJq"/>
+                <outlet property="btnAnglers20" destination="YGS-bV-SpX" id="FSo-Rz-sX4"/>
+                <outlet property="numberOfAnglersField" destination="x3t-62-5Jj" id="JdG-DE-xv2"/>
+            </connections>
+            <point key="canvasLocation" x="435.5" y="447"/>
+        </tableViewCell>
+    </objects>
+</document>

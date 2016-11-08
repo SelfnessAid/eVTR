@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Semibold.ttf">
+            <string>OpenSans-Semibold</string>
+            <string>OpenSans-Semibold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VesselCollectionViewCell" customModule="eVTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="232713" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="R1i-8P-Ye7">
+                        <rect key="frame" x="26" y="13" width="42" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="R1i-8P-Ye7" secondAttribute="height" multiplier="42:17" id="mLu-X4-GOg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="12"/>
+                        <color key="textColor" red="0.086274509799999996" green="0.58431372550000005" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vessel Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="rKy-Mp-ZVo">
+                        <rect key="frame" x="86" y="12" width="263" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="rKy-Mp-ZVo" secondAttribute="height" multiplier="263:19" id="MR5-G4-3BH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans-Semibold" family="Open Sans" pointSize="13"/>
+                        <color key="textColor" red="0.015686274510000001" green="0.23921568630000001" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ycb-Y0-q9c">
+                        <rect key="frame" x="13" y="43" width="349" height="1"/>
+                        <color key="backgroundColor" red="0.85882352939999995" green="0.85882352939999995" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Yz7-zf-f3b"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="rKy-Mp-ZVo" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="0QA-9K-45c"/>
+                <constraint firstItem="Ycb-Y0-q9c" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.93" id="3JX-Nx-J4i"/>
+                <constraint firstAttribute="bottom" secondItem="Ycb-Y0-q9c" secondAttribute="bottom" id="FW6-eD-Y72"/>
+                <constraint firstItem="rKy-Mp-ZVo" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.7" id="Nc0-3w-AXi"/>
+                <constraint firstItem="rKy-Mp-ZVo" firstAttribute="leading" secondItem="R1i-8P-Ye7" secondAttribute="trailing" constant="18" id="hTZ-G0-kCn"/>
+                <constraint firstItem="Ycb-Y0-q9c" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="oFp-F5-Hoc"/>
+                <constraint firstItem="R1i-8P-Ye7" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" multiplier="0.112" id="oPX-vB-dYd"/>
+                <constraint firstItem="R1i-8P-Ye7" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="v2y-zD-mzw"/>
+                <constraint firstItem="R1i-8P-Ye7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="26" id="wl5-QE-r5o"/>
+            </constraints>
+            <connections>
+                <outlet property="nameLabel" destination="rKy-Mp-ZVo" id="ITi-CQ-JW2"/>
+                <outlet property="permitNum" destination="R1i-8P-Ye7" id="ThO-Bi-h5w"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

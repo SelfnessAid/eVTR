@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8820DF776ADB22FEE7E62633 /* Pods_eVTR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E94043E440F4FF43E66A1D2 /* Pods_eVTR.framework */; };
+		AA69FE3B1D4065990024DA6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69FE3A1D4065990024DA6A /* AppDelegate.swift */; };
+		AA69FE401D4065990024DA6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE3E1D4065990024DA6A /* Main.storyboard */; };
+		AA69FE421D4065990024DA6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE411D4065990024DA6A /* Assets.xcassets */; };
+		AA69FE451D4065990024DA6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE431D4065990024DA6A /* LaunchScreen.storyboard */; };
+		AA69FE741D406B000024DA6A /* calibri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE6E1D406B000024DA6A /* calibri.ttf */; };
+		AA69FE771D406B000024DA6A /* calibrib.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE6F1D406B000024DA6A /* calibrib.ttf */; };
+		AA69FE7A1D406B000024DA6A /* calibrii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE701D406B000024DA6A /* calibrii.ttf */; };
+		AA69FE7D1D406B000024DA6A /* calibril.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE711D406B000024DA6A /* calibril.ttf */; };
+		AA69FE801D406B000024DA6A /* calibrili.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE721D406B000024DA6A /* calibrili.ttf */; };
+		AA69FE831D406B000024DA6A /* calibriz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FE731D406B000024DA6A /* calibriz.ttf */; };
+		AA69FEC81D4073280024DA6A /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEBB1D4073280024DA6A /* OpenSans-Bold.ttf */; };
+		AA69FECB1D4073280024DA6A /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEBC1D4073280024DA6A /* OpenSans-BoldItalic.ttf */; };
+		AA69FECE1D4073280024DA6A /* OpenSans-CondBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEBD1D4073280024DA6A /* OpenSans-CondBold.ttf */; };
+		AA69FED11D4073280024DA6A /* OpenSans-CondLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEBE1D4073280024DA6A /* OpenSans-CondLight.ttf */; };
+		AA69FED41D4073280024DA6A /* OpenSans-CondLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEBF1D4073280024DA6A /* OpenSans-CondLightItalic.ttf */; };
+		AA69FED71D4073280024DA6A /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEC01D4073280024DA6A /* OpenSans-ExtraBold.ttf */; };
+		AA69FEDA1D4073280024DA6A /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEC11D4073280024DA6A /* OpenSans-ExtraBoldItalic.ttf */; };
+		AA69FEDD1D4073280024DA6A /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEC21D4073280024DA6A /* OpenSans-Italic.ttf */; };
+		AA69FEE01D4073280024DA6A /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEC31D4073280024DA6A /* OpenSans-Light.ttf */; };
+		AA69FEE31D4073280024DA6A /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEC41D4073280024DA6A /* OpenSans-LightItalic.ttf */; };
+		AA69FEE61D4073280024DA6A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEC51D4073280024DA6A /* OpenSans-Regular.ttf */; };
+		AA69FEE91D4073280024DA6A /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEC61D4073280024DA6A /* OpenSans-Semibold.ttf */; };
+		AA69FEEC1D4073280024DA6A /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AA69FEC71D4073280024DA6A /* OpenSans-SemiboldItalic.ttf */; };
+		AA69FEF01D40733C0024DA6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69FEEF1D40733C0024DA6A /* Constants.swift */; };
+		AA69FEFF1D407D3D0024DA6A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69FEFE1D407D3D0024DA6A /* BaseViewController.swift */; };
+		AA69FF031D407D420024DA6A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69FF021D407D420024DA6A /* HomeViewController.swift */; };
+		AA69FF071D407D470024DA6A /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69FF061D407D470024DA6A /* SignInViewController.swift */; };
+		AA69FF0D1D407D6A0024DA6A /* TripItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA69FF0B1D407D6A0024DA6A /* TripItemTableViewCell.swift */; };
+		AA69FF101D407D6A0024DA6A /* TripItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA69FF0C1D407D6A0024DA6A /* TripItemTableViewCell.xib */; };
+		AA6F2E551D428CF8009F507F /* TripTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2E541D428CF8009F507F /* TripTypeViewController.swift */; };
+		AA6F2E5A1D428E29009F507F /* TripTypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2E581D428E29009F507F /* TripTypeTableViewCell.swift */; };
+		AA6F2E5B1D428E29009F507F /* TripTypeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6F2E591D428E29009F507F /* TripTypeTableViewCell.xib */; };
+		AA6F2E5E1D428E3D009F507F /* TripCrewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2E5C1D428E3D009F507F /* TripCrewTableViewCell.swift */; };
+		AA6F2E5F1D428E3D009F507F /* TripCrewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6F2E5D1D428E3D009F507F /* TripCrewTableViewCell.xib */; };
+		AA6F2E621D428EC3009F507F /* TripAnglerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2E601D428EC3009F507F /* TripAnglerTableViewCell.swift */; };
+		AA6F2E631D428EC3009F507F /* TripAnglerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6F2E611D428EC3009F507F /* TripAnglerTableViewCell.xib */; };
+		AA6F2E651D429E77009F507F /* TripReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2E641D429E77009F507F /* TripReviewViewController.swift */; };
+		AA6F2E681D42A13B009F507F /* TripReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2E661D42A13B009F507F /* TripReviewTableViewCell.swift */; };
+		AA6F2E691D42A13B009F507F /* TripReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6F2E671D42A13B009F507F /* TripReviewTableViewCell.xib */; };
+		AA6F2E6C1D42A46E009F507F /* AreaInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2E6B1D42A46E009F507F /* AreaInputViewController.swift */; };
+		AA6F2E701D42AE7D009F507F /* AreaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6F2E6E1D42AE7D009F507F /* AreaTableViewCell.swift */; };
+		AA6F2E711D42AE7D009F507F /* AreaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA6F2E6F1D42AE7D009F507F /* AreaTableViewCell.xib */; };
+		AA79F2A11D40D740000ACC22 /* VesselItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F29F1D40D740000ACC22 /* VesselItemTableViewCell.swift */; };
+		AA79F2A21D40D740000ACC22 /* VesselItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA79F2A01D40D740000ACC22 /* VesselItemTableViewCell.xib */; };
+		AA79F2A41D40D8C6000ACC22 /* SelectDateTimeForTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2A31D40D8C6000ACC22 /* SelectDateTimeForTripViewController.swift */; };
+		AA79F2A71D40DBBC000ACC22 /* TripDateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2A51D40DBBC000ACC22 /* TripDateTableViewCell.swift */; };
+		AA79F2A81D40DBBC000ACC22 /* TripDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA79F2A61D40DBBC000ACC22 /* TripDateTableViewCell.xib */; };
+		AA79F2AB1D40DBCF000ACC22 /* TripTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA79F2A91D40DBCF000ACC22 /* TripTimeTableViewCell.swift */; };
+		AA79F2AC1D40DBCF000ACC22 /* TripTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA79F2AA1D40DBCF000ACC22 /* TripTimeTableViewCell.xib */; };
+		AAAAC5AB1D40C3EF002773E2 /* SelectVesselViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAC5AA1D40C3EF002773E2 /* SelectVesselViewController.swift */; };
+		AAAAC5AF1D40C848002773E2 /* VesselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAAC5AD1D40C848002773E2 /* VesselCollectionViewCell.swift */; };
+		AAAAC5B01D40C848002773E2 /* VesselCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAAAC5AE1D40C848002773E2 /* VesselCollectionViewCell.xib */; };
+		AAC0D1921D46562F00BC3C9E /* GearInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0D1911D46562F00BC3C9E /* GearInputViewController.swift */; };
+		AAC0D1941D465AC200BC3C9E /* CatchInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0D1931D465AC200BC3C9E /* CatchInputViewController.swift */; };
+		AAC0D1961D465D8A00BC3C9E /* EffortReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0D1951D465D8A00BC3C9E /* EffortReviewViewController.swift */; };
+		AAC0D1991D465ECA00BC3C9E /* GearInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0D1971D465ECA00BC3C9E /* GearInfoTableViewCell.swift */; };
+		AAC0D19A1D465ECA00BC3C9E /* GearInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC0D1981D465ECA00BC3C9E /* GearInfoTableViewCell.xib */; };
+		AAC0D19D1D465EE000BC3C9E /* AreaInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0D19B1D465EE000BC3C9E /* AreaInfoTableViewCell.swift */; };
+		AAC0D19E1D465EE000BC3C9E /* AreaInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC0D19C1D465EE000BC3C9E /* AreaInfoTableViewCell.xib */; };
+		AAC0D1A11D465EF400BC3C9E /* CatchInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC0D19F1D465EF400BC3C9E /* CatchInfoTableViewCell.swift */; };
+		AAC0D1A21D465EF400BC3C9E /* CatchInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC0D1A01D465EF400BC3C9E /* CatchInfoTableViewCell.xib */; };
+		CE0C7C821D6E25FC00880604 /* ChartAreaEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7C811D6E25FC00880604 /* ChartAreaEntity.swift */; };
+		CE0C7C841D6E276600880604 /* OperatorsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7C831D6E276600880604 /* OperatorsEntity.swift */; };
+		CE0C7C861D6E278100880604 /* PermitsEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7C851D6E278100880604 /* PermitsEntity.swift */; };
+		CE0C7C8A1D6E27A400880604 /* SpeciesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7C891D6E27A400880604 /* SpeciesEntity.swift */; };
+		CE0C7C8C1D6E27BF00880604 /* TripTypesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7C8B1D6E27BF00880604 /* TripTypesEntity.swift */; };
+		CE0C7C8E1D6E27DA00880604 /* DealersEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7C8D1D6E27DA00880604 /* DealersEntity.swift */; };
+		CE1113BE1D50A4AC005497FC /* DateLandedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1113BD1D50A4AC005497FC /* DateLandedViewController.swift */; };
+		CE1113C01D50A4F0005497FC /* SalesInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1113BF1D50A4F0005497FC /* SalesInfoViewController.swift */; };
+		CE1113C21D50CA72005497FC /* EndTripDealerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1113C11D50CA72005497FC /* EndTripDealerTableViewCell.swift */; };
+		CE1113C41D50CAAB005497FC /* EndTripDealerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE1113C31D50CAAB005497FC /* EndTripDealerTableViewCell.xib */; };
+		CE299B981D51983800A5F258 /* CheckBoxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE299B961D51983800A5F258 /* CheckBoxTableViewCell.swift */; };
+		CE299B991D51983800A5F258 /* CheckBoxTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE299B971D51983800A5F258 /* CheckBoxTableViewCell.xib */; };
+		CE34DA3E1D4BB1C70000CB40 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE34DA3D1D4BB1C70000CB40 /* SearchViewController.swift */; };
+		CE37FC371D64B1ED00A1D824 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE37FC361D64B1ED00A1D824 /* SplashViewController.swift */; };
+		CE39F53C1D4A54CC00A3C435 /* EndTripReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39F53B1D4A54CC00A3C435 /* EndTripReviewViewController.swift */; };
+		CE39F53E1D4A552000A3C435 /* EndTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39F53D1D4A552000A3C435 /* EndTripViewController.swift */; };
+		CE39F5401D4A55AA00A3C435 /* SignSubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39F53F1D4A55AA00A3C435 /* SignSubmitViewController.swift */; };
+		CE39F54C1D4A9CBD00A3C435 /* DealerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39F54A1D4A9CBD00A3C435 /* DealerTableViewCell.swift */; };
+		CE39F54D1D4A9CBD00A3C435 /* DealerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE39F54B1D4A9CBD00A3C435 /* DealerTableViewCell.xib */; };
+		CE39F5501D4A9CDE00A3C435 /* PortCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39F54E1D4A9CDE00A3C435 /* PortCityTableViewCell.swift */; };
+		CE39F5511D4A9CDE00A3C435 /* PortCityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE39F54F1D4A9CDE00A3C435 /* PortCityTableViewCell.xib */; };
+		CE3DA3E51D62BEC700D5E040 /* NOAACoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE3DA3E31D62BEC700D5E040 /* NOAACoreData.xcdatamodeld */; };
+		CEA2AFAA1D4B0A620002851B /* SaleInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA2AFA81D4B0A620002851B /* SaleInfoTableViewCell.swift */; };
+		CEA2AFAB1D4B0A620002851B /* SaleInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA2AFA91D4B0A620002851B /* SaleInfoTableViewCell.xib */; };
+		CEB28E431D5A17EA00BE6610 /* NOAAUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB28E421D5A17EA00BE6610 /* NOAAUser.swift */; };
+		E1C3D8C41D6CA4030022E391 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C3D8C31D6CA4030022E391 /* RequestManager.swift */; };
+		E1C3D8C71D6CB38B0022E391 /* ActivityEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C3D8C61D6CB38B0022E391 /* ActivityEntity.swift */; };
+		E1C3D8C91D6CBC470022E391 /* GearEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C3D8C81D6CBC470022E391 /* GearEntity.swift */; };
+		E1C3D8CB1D6CD2ED0022E391 /* BaseManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C3D8CA1D6CD2ED0022E391 /* BaseManagedObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E94043E440F4FF43E66A1D2 /* Pods_eVTR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eVTR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D3038B6A7F287524AC197B /* Pods-eVTR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eVTR.release.xcconfig"; path = "Pods/Target Support Files/Pods-eVTR/Pods-eVTR.release.xcconfig"; sourceTree = "<group>"; };
+		AA69FE371D4065980024DA6A /* eVTR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eVTR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA69FE3A1D4065990024DA6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA69FE3F1D4065990024DA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA69FE411D4065990024DA6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA69FE441D4065990024DA6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA69FE461D4065990024DA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA69FE4F1D4065990024DA6A /* eVTRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eVTRTests.swift; sourceTree = "<group>"; };
+		AA69FE511D4065990024DA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA69FE5A1D4065990024DA6A /* eVTRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eVTRUITests.swift; sourceTree = "<group>"; };
+		AA69FE5C1D4065990024DA6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA69FE6E1D406B000024DA6A /* calibri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = calibri.ttf; path = fonts/calibri.ttf; sourceTree = "<group>"; };
+		AA69FE6F1D406B000024DA6A /* calibrib.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = calibrib.ttf; path = fonts/calibrib.ttf; sourceTree = "<group>"; };
+		AA69FE701D406B000024DA6A /* calibrii.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = calibrii.ttf; path = fonts/calibrii.ttf; sourceTree = "<group>"; };
+		AA69FE711D406B000024DA6A /* calibril.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = calibril.ttf; path = fonts/calibril.ttf; sourceTree = "<group>"; };
+		AA69FE721D406B000024DA6A /* calibrili.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = calibrili.ttf; path = fonts/calibrili.ttf; sourceTree = "<group>"; };
+		AA69FE731D406B000024DA6A /* calibriz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = calibriz.ttf; path = fonts/calibriz.ttf; sourceTree = "<group>"; };
+		AA69FEBB1D4073280024DA6A /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		AA69FEBC1D4073280024DA6A /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-BoldItalic.ttf"; path = "fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AA69FEBD1D4073280024DA6A /* OpenSans-CondBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondBold.ttf"; path = "fonts/OpenSans-CondBold.ttf"; sourceTree = "<group>"; };
+		AA69FEBE1D4073280024DA6A /* OpenSans-CondLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondLight.ttf"; path = "fonts/OpenSans-CondLight.ttf"; sourceTree = "<group>"; };
+		AA69FEBF1D4073280024DA6A /* OpenSans-CondLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-CondLightItalic.ttf"; path = "fonts/OpenSans-CondLightItalic.ttf"; sourceTree = "<group>"; };
+		AA69FEC01D4073280024DA6A /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AA69FEC11D4073280024DA6A /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		AA69FEC21D4073280024DA6A /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Italic.ttf"; path = "fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		AA69FEC31D4073280024DA6A /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		AA69FEC41D4073280024DA6A /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		AA69FEC51D4073280024DA6A /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		AA69FEC61D4073280024DA6A /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		AA69FEC71D4073280024DA6A /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiboldItalic.ttf"; path = "fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		AA69FEEF1D40733C0024DA6A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		AA69FEFE1D407D3D0024DA6A /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Controller/BaseViewController.swift; sourceTree = "<group>"; };
+		AA69FF021D407D420024DA6A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controller/HomeViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		AA69FF061D407D470024DA6A /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = Controller/SignInViewController.swift; sourceTree = "<group>"; };
+		AA69FF0B1D407D6A0024DA6A /* TripItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripItemTableViewCell.swift; path = View/TripItemTableViewCell.swift; sourceTree = "<group>"; };
+		AA69FF0C1D407D6A0024DA6A /* TripItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripItemTableViewCell.xib; path = View/TripItemTableViewCell.xib; sourceTree = "<group>"; };
+		AA6F2E541D428CF8009F507F /* TripTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripTypeViewController.swift; path = Controller/TripTypeViewController.swift; sourceTree = "<group>"; };
+		AA6F2E581D428E29009F507F /* TripTypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripTypeTableViewCell.swift; path = View/TripTypeTableViewCell.swift; sourceTree = "<group>"; };
+		AA6F2E591D428E29009F507F /* TripTypeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripTypeTableViewCell.xib; path = View/TripTypeTableViewCell.xib; sourceTree = "<group>"; };
+		AA6F2E5C1D428E3D009F507F /* TripCrewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripCrewTableViewCell.swift; path = View/TripCrewTableViewCell.swift; sourceTree = "<group>"; };
+		AA6F2E5D1D428E3D009F507F /* TripCrewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripCrewTableViewCell.xib; path = View/TripCrewTableViewCell.xib; sourceTree = "<group>"; };
+		AA6F2E601D428EC3009F507F /* TripAnglerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripAnglerTableViewCell.swift; path = View/TripAnglerTableViewCell.swift; sourceTree = "<group>"; };
+		AA6F2E611D428EC3009F507F /* TripAnglerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripAnglerTableViewCell.xib; path = View/TripAnglerTableViewCell.xib; sourceTree = "<group>"; };
+		AA6F2E641D429E77009F507F /* TripReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripReviewViewController.swift; path = Controller/TripReviewViewController.swift; sourceTree = "<group>"; };
+		AA6F2E661D42A13B009F507F /* TripReviewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripReviewTableViewCell.swift; path = View/TripReviewTableViewCell.swift; sourceTree = "<group>"; };
+		AA6F2E671D42A13B009F507F /* TripReviewTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripReviewTableViewCell.xib; path = View/TripReviewTableViewCell.xib; sourceTree = "<group>"; };
+		AA6F2E6B1D42A46E009F507F /* AreaInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AreaInputViewController.swift; path = Controller/AreaInputViewController.swift; sourceTree = "<group>"; };
+		AA6F2E6E1D42AE7D009F507F /* AreaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AreaTableViewCell.swift; path = View/AreaTableViewCell.swift; sourceTree = "<group>"; };
+		AA6F2E6F1D42AE7D009F507F /* AreaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AreaTableViewCell.xib; path = View/AreaTableViewCell.xib; sourceTree = "<group>"; };
+		AA79F29F1D40D740000ACC22 /* VesselItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VesselItemTableViewCell.swift; path = View/VesselItemTableViewCell.swift; sourceTree = "<group>"; };
+		AA79F2A01D40D740000ACC22 /* VesselItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VesselItemTableViewCell.xib; path = View/VesselItemTableViewCell.xib; sourceTree = "<group>"; };
+		AA79F2A31D40D8C6000ACC22 /* SelectDateTimeForTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectDateTimeForTripViewController.swift; path = Controller/SelectDateTimeForTripViewController.swift; sourceTree = "<group>"; };
+		AA79F2A51D40DBBC000ACC22 /* TripDateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripDateTableViewCell.swift; path = View/TripDateTableViewCell.swift; sourceTree = "<group>"; };
+		AA79F2A61D40DBBC000ACC22 /* TripDateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripDateTableViewCell.xib; path = View/TripDateTableViewCell.xib; sourceTree = "<group>"; };
+		AA79F2A91D40DBCF000ACC22 /* TripTimeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripTimeTableViewCell.swift; path = View/TripTimeTableViewCell.swift; sourceTree = "<group>"; };
+		AA79F2AA1D40DBCF000ACC22 /* TripTimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TripTimeTableViewCell.xib; path = View/TripTimeTableViewCell.xib; sourceTree = "<group>"; };
+		AAAAC5AA1D40C3EF002773E2 /* SelectVesselViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectVesselViewController.swift; path = Controller/SelectVesselViewController.swift; sourceTree = "<group>"; };
+		AAAAC5AD1D40C848002773E2 /* VesselCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VesselCollectionViewCell.swift; path = View/VesselCollectionViewCell.swift; sourceTree = "<group>"; };
+		AAAAC5AE1D40C848002773E2 /* VesselCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VesselCollectionViewCell.xib; path = View/VesselCollectionViewCell.xib; sourceTree = "<group>"; };
+		AAC0D1911D46562F00BC3C9E /* GearInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GearInputViewController.swift; path = Controller/GearInputViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		AAC0D1931D465AC200BC3C9E /* CatchInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatchInputViewController.swift; path = Controller/CatchInputViewController.swift; sourceTree = "<group>"; };
+		AAC0D1951D465D8A00BC3C9E /* EffortReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EffortReviewViewController.swift; path = Controller/EffortReviewViewController.swift; sourceTree = "<group>"; };
+		AAC0D1971D465ECA00BC3C9E /* GearInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GearInfoTableViewCell.swift; path = View/GearInfoTableViewCell.swift; sourceTree = "<group>"; };
+		AAC0D1981D465ECA00BC3C9E /* GearInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GearInfoTableViewCell.xib; path = View/GearInfoTableViewCell.xib; sourceTree = "<group>"; };
+		AAC0D19B1D465EE000BC3C9E /* AreaInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AreaInfoTableViewCell.swift; path = View/AreaInfoTableViewCell.swift; sourceTree = "<group>"; };
+		AAC0D19C1D465EE000BC3C9E /* AreaInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AreaInfoTableViewCell.xib; path = View/AreaInfoTableViewCell.xib; sourceTree = "<group>"; };
+		AAC0D19F1D465EF400BC3C9E /* CatchInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatchInfoTableViewCell.swift; path = View/CatchInfoTableViewCell.swift; sourceTree = "<group>"; };
+		AAC0D1A01D465EF400BC3C9E /* CatchInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CatchInfoTableViewCell.xib; path = View/CatchInfoTableViewCell.xib; sourceTree = "<group>"; };
+		CE0C7C811D6E25FC00880604 /* ChartAreaEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartAreaEntity.swift; path = Model/ChartAreaEntity.swift; sourceTree = "<group>"; };
+		CE0C7C831D6E276600880604 /* OperatorsEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OperatorsEntity.swift; path = Model/OperatorsEntity.swift; sourceTree = "<group>"; };
+		CE0C7C851D6E278100880604 /* PermitsEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PermitsEntity.swift; path = Model/PermitsEntity.swift; sourceTree = "<group>"; };
+		CE0C7C891D6E27A400880604 /* SpeciesEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeciesEntity.swift; path = Model/SpeciesEntity.swift; sourceTree = "<group>"; };
+		CE0C7C8B1D6E27BF00880604 /* TripTypesEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TripTypesEntity.swift; path = Model/TripTypesEntity.swift; sourceTree = "<group>"; };
+		CE0C7C8D1D6E27DA00880604 /* DealersEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DealersEntity.swift; path = Model/DealersEntity.swift; sourceTree = "<group>"; };
+		CE1113BD1D50A4AC005497FC /* DateLandedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateLandedViewController.swift; path = Controller/DateLandedViewController.swift; sourceTree = "<group>"; };
+		CE1113BF1D50A4F0005497FC /* SalesInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SalesInfoViewController.swift; path = Controller/SalesInfoViewController.swift; sourceTree = "<group>"; };
+		CE1113C11D50CA72005497FC /* EndTripDealerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndTripDealerTableViewCell.swift; path = View/EndTripDealerTableViewCell.swift; sourceTree = "<group>"; };
+		CE1113C31D50CAAB005497FC /* EndTripDealerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EndTripDealerTableViewCell.xib; path = View/EndTripDealerTableViewCell.xib; sourceTree = "<group>"; };
+		CE299B961D51983800A5F258 /* CheckBoxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBoxTableViewCell.swift; path = View/CheckBoxTableViewCell.swift; sourceTree = "<group>"; };
+		CE299B971D51983800A5F258 /* CheckBoxTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CheckBoxTableViewCell.xib; path = View/CheckBoxTableViewCell.xib; sourceTree = "<group>"; };
+		CE34DA3D1D4BB1C70000CB40 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = Controller/SearchViewController.swift; sourceTree = "<group>"; };
+		CE37FC361D64B1ED00A1D824 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SplashViewController.swift; path = Controller/SplashViewController.swift; sourceTree = "<group>"; };
+		CE39F53B1D4A54CC00A3C435 /* EndTripReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndTripReviewViewController.swift; path = Controller/EndTripReviewViewController.swift; sourceTree = "<group>"; };
+		CE39F53D1D4A552000A3C435 /* EndTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndTripViewController.swift; path = Controller/EndTripViewController.swift; sourceTree = "<group>"; };
+		CE39F53F1D4A55AA00A3C435 /* SignSubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignSubmitViewController.swift; path = Controller/SignSubmitViewController.swift; sourceTree = "<group>"; };
+		CE39F54A1D4A9CBD00A3C435 /* DealerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DealerTableViewCell.swift; path = View/DealerTableViewCell.swift; sourceTree = "<group>"; };
+		CE39F54B1D4A9CBD00A3C435 /* DealerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DealerTableViewCell.xib; path = View/DealerTableViewCell.xib; sourceTree = "<group>"; };
+		CE39F54E1D4A9CDE00A3C435 /* PortCityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PortCityTableViewCell.swift; path = View/PortCityTableViewCell.swift; sourceTree = "<group>"; };
+		CE39F54F1D4A9CDE00A3C435 /* PortCityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PortCityTableViewCell.xib; path = View/PortCityTableViewCell.xib; sourceTree = "<group>"; };
+		CE3DA3E41D62BEC700D5E040 /* NOAACoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NOAACoreData.xcdatamodel; sourceTree = "<group>"; };
+		CEA2AFA81D4B0A620002851B /* SaleInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SaleInfoTableViewCell.swift; path = View/SaleInfoTableViewCell.swift; sourceTree = "<group>"; };
+		CEA2AFA91D4B0A620002851B /* SaleInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SaleInfoTableViewCell.xib; path = View/SaleInfoTableViewCell.xib; sourceTree = "<group>"; };
+		CEB28E421D5A17EA00BE6610 /* NOAAUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NOAAUser.swift; path = Model/NOAAUser.swift; sourceTree = "<group>"; };
+		D2648D08F9783A34010288A0 /* Pods-eVTR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eVTR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eVTR/Pods-eVTR.debug.xcconfig"; sourceTree = "<group>"; };
+		E1C3D8C31D6CA4030022E391 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestManager.swift; path = Utility/RequestManager.swift; sourceTree = "<group>"; };
+		E1C3D8C61D6CB38B0022E391 /* ActivityEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityEntity.swift; path = Model/ActivityEntity.swift; sourceTree = "<group>"; };
+		E1C3D8C81D6CBC470022E391 /* GearEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GearEntity.swift; path = Model/GearEntity.swift; sourceTree = "<group>"; };
+		E1C3D8CA1D6CD2ED0022E391 /* BaseManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseManagedObject.swift; path = Model/BaseManagedObject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA69FE341D4065980024DA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8820DF776ADB22FEE7E62633 /* Pods_eVTR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		877B5C19DD28DFFE2C62D9BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E94043E440F4FF43E66A1D2 /* Pods_eVTR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA69FE2E1D4065980024DA6A = {
+			isa = PBXGroup;
+			children = (
+				AA69FE391D4065990024DA6A /* eVTR */,
+				CE3DA3DC1D62B31500D5E040 /* Supporting Files */,
+				AA69FE4E1D4065990024DA6A /* eVTRTests */,
+				AA69FE591D4065990024DA6A /* eVTRUITests */,
+				AA69FE381D4065980024DA6A /* Products */,
+				877B5C19DD28DFFE2C62D9BD /* Frameworks */,
+				CEA5812F14B55BF69C96DEAE /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AA69FE381D4065980024DA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FE371D4065980024DA6A /* eVTR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA69FE391D4065990024DA6A /* eVTR */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FEBA1D40727C0024DA6A /* Utility */,
+				AA69FE691D40669E0024DA6A /* Model */,
+				AA69FEFD1D407D050024DA6A /* View */,
+				AA69FE6A1D4066A60024DA6A /* Controller */,
+			);
+			path = eVTR;
+			sourceTree = "<group>";
+		};
+		AA69FE4E1D4065990024DA6A /* eVTRTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FE4F1D4065990024DA6A /* eVTRTests.swift */,
+				AA69FE511D4065990024DA6A /* Info.plist */,
+			);
+			path = eVTRTests;
+			sourceTree = "<group>";
+		};
+		AA69FE591D4065990024DA6A /* eVTRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FE5A1D4065990024DA6A /* eVTRUITests.swift */,
+				AA69FE5C1D4065990024DA6A /* Info.plist */,
+			);
+			path = eVTRUITests;
+			sourceTree = "<group>";
+		};
+		AA69FE681D4066960024DA6A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FF061D407D470024DA6A /* SignInViewController.swift */,
+				CE37FC361D64B1ED00A1D824 /* SplashViewController.swift */,
+			);
+			name = Auth;
+			sourceTree = "<group>";
+		};
+		AA69FE691D40669E0024DA6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3D8C51D6CB3690022E391 /* NSManagerObject */,
+				CEB28E421D5A17EA00BE6610 /* NOAAUser.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AA69FE6A1D4066A60024DA6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FEF81D407CA50024DA6A /* Base */,
+				AA69FE681D4066960024DA6A /* Auth */,
+				AA69FEF31D4077FD0024DA6A /* Home */,
+				AAAAC5A91D40C3C4002773E2 /* CreateTrip */,
+				AA6F2E6A1D42A437009F507F /* CreateArea */,
+				CE39F5361D4A403400A3C435 /* EndTrip */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		AA69FE6D1D406AF60024DA6A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FE6E1D406B000024DA6A /* calibri.ttf */,
+				AA69FE6F1D406B000024DA6A /* calibrib.ttf */,
+				AA69FE701D406B000024DA6A /* calibrii.ttf */,
+				AA69FE711D406B000024DA6A /* calibril.ttf */,
+				AA69FE721D406B000024DA6A /* calibrili.ttf */,
+				AA69FE731D406B000024DA6A /* calibriz.ttf */,
+				AA69FEBB1D4073280024DA6A /* OpenSans-Bold.ttf */,
+				AA69FEBC1D4073280024DA6A /* OpenSans-BoldItalic.ttf */,
+				AA69FEBD1D4073280024DA6A /* OpenSans-CondBold.ttf */,
+				AA69FEBE1D4073280024DA6A /* OpenSans-CondLight.ttf */,
+				AA69FEBF1D4073280024DA6A /* OpenSans-CondLightItalic.ttf */,
+				AA69FEC01D4073280024DA6A /* OpenSans-ExtraBold.ttf */,
+				AA69FEC11D4073280024DA6A /* OpenSans-ExtraBoldItalic.ttf */,
+				AA69FEC21D4073280024DA6A /* OpenSans-Italic.ttf */,
+				AA69FEC31D4073280024DA6A /* OpenSans-Light.ttf */,
+				AA69FEC41D4073280024DA6A /* OpenSans-LightItalic.ttf */,
+				AA69FEC51D4073280024DA6A /* OpenSans-Regular.ttf */,
+				AA69FEC61D4073280024DA6A /* OpenSans-Semibold.ttf */,
+				AA69FEC71D4073280024DA6A /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		AA69FEBA1D40727C0024DA6A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FEEF1D40733C0024DA6A /* Constants.swift */,
+				E1C3D8C31D6CA4030022E391 /* RequestManager.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		AA69FEF31D4077FD0024DA6A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FF021D407D420024DA6A /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		AA69FEF81D407CA50024DA6A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FEFE1D407D3D0024DA6A /* BaseViewController.swift */,
+				CE34DA3D1D4BB1C70000CB40 /* SearchViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		AA69FEFD1D407D050024DA6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FF0A1D407D4D0024DA6A /* Home */,
+				AAAAC5AC1D40C821002773E2 /* CreateTrip */,
+				AA6F2E6D1D42AE55009F507F /* Area */,
+				CE39F5411D4A9A7800A3C435 /* EndTrip */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AA69FF0A1D407D4D0024DA6A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FF0B1D407D6A0024DA6A /* TripItemTableViewCell.swift */,
+				AA69FF0C1D407D6A0024DA6A /* TripItemTableViewCell.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		AA6F2E561D428DD2009F507F /* Date Select */ = {
+			isa = PBXGroup;
+			children = (
+				AA79F2A51D40DBBC000ACC22 /* TripDateTableViewCell.swift */,
+				AA79F2A61D40DBBC000ACC22 /* TripDateTableViewCell.xib */,
+				AA79F2A91D40DBCF000ACC22 /* TripTimeTableViewCell.swift */,
+				AA79F2AA1D40DBCF000ACC22 /* TripTimeTableViewCell.xib */,
+			);
+			name = "Date Select";
+			sourceTree = "<group>";
+		};
+		AA6F2E571D428DE1009F507F /* Type Select */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F2E581D428E29009F507F /* TripTypeTableViewCell.swift */,
+				AA6F2E591D428E29009F507F /* TripTypeTableViewCell.xib */,
+				AA6F2E5C1D428E3D009F507F /* TripCrewTableViewCell.swift */,
+				AA6F2E5D1D428E3D009F507F /* TripCrewTableViewCell.xib */,
+				AA6F2E601D428EC3009F507F /* TripAnglerTableViewCell.swift */,
+				AA6F2E611D428EC3009F507F /* TripAnglerTableViewCell.xib */,
+				AA6F2E661D42A13B009F507F /* TripReviewTableViewCell.swift */,
+				AA6F2E671D42A13B009F507F /* TripReviewTableViewCell.xib */,
+			);
+			name = "Type Select";
+			sourceTree = "<group>";
+		};
+		AA6F2E6A1D42A437009F507F /* CreateArea */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F2E6B1D42A46E009F507F /* AreaInputViewController.swift */,
+				AAC0D1911D46562F00BC3C9E /* GearInputViewController.swift */,
+				AAC0D1931D465AC200BC3C9E /* CatchInputViewController.swift */,
+				AAC0D1951D465D8A00BC3C9E /* EffortReviewViewController.swift */,
+			);
+			name = CreateArea;
+			sourceTree = "<group>";
+		};
+		AA6F2E6D1D42AE55009F507F /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				AA6F2E6E1D42AE7D009F507F /* AreaTableViewCell.swift */,
+				AA6F2E6F1D42AE7D009F507F /* AreaTableViewCell.xib */,
+				AAC0D1971D465ECA00BC3C9E /* GearInfoTableViewCell.swift */,
+				AAC0D1981D465ECA00BC3C9E /* GearInfoTableViewCell.xib */,
+				AAC0D19B1D465EE000BC3C9E /* AreaInfoTableViewCell.swift */,
+				AAC0D19C1D465EE000BC3C9E /* AreaInfoTableViewCell.xib */,
+				AAC0D19F1D465EF400BC3C9E /* CatchInfoTableViewCell.swift */,
+				AAC0D1A01D465EF400BC3C9E /* CatchInfoTableViewCell.xib */,
+			);
+			name = Area;
+			sourceTree = "<group>";
+		};
+		AAAAC5A91D40C3C4002773E2 /* CreateTrip */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAC5AA1D40C3EF002773E2 /* SelectVesselViewController.swift */,
+				AA79F2A31D40D8C6000ACC22 /* SelectDateTimeForTripViewController.swift */,
+				AA6F2E541D428CF8009F507F /* TripTypeViewController.swift */,
+				AA6F2E641D429E77009F507F /* TripReviewViewController.swift */,
+			);
+			name = CreateTrip;
+			sourceTree = "<group>";
+		};
+		AAAAC5AC1D40C821002773E2 /* CreateTrip */ = {
+			isa = PBXGroup;
+			children = (
+				AAAAC5AD1D40C848002773E2 /* VesselCollectionViewCell.swift */,
+				AAAAC5AE1D40C848002773E2 /* VesselCollectionViewCell.xib */,
+				AA79F29F1D40D740000ACC22 /* VesselItemTableViewCell.swift */,
+				AA79F2A01D40D740000ACC22 /* VesselItemTableViewCell.xib */,
+				AA6F2E561D428DD2009F507F /* Date Select */,
+				AA6F2E571D428DE1009F507F /* Type Select */,
+			);
+			name = CreateTrip;
+			sourceTree = "<group>";
+		};
+		CE39F5361D4A403400A3C435 /* EndTrip */ = {
+			isa = PBXGroup;
+			children = (
+				CE1113BD1D50A4AC005497FC /* DateLandedViewController.swift */,
+				CE1113BF1D50A4F0005497FC /* SalesInfoViewController.swift */,
+				CE39F53D1D4A552000A3C435 /* EndTripViewController.swift */,
+				CE39F53B1D4A54CC00A3C435 /* EndTripReviewViewController.swift */,
+				CE39F53F1D4A55AA00A3C435 /* SignSubmitViewController.swift */,
+			);
+			name = EndTrip;
+			sourceTree = "<group>";
+		};
+		CE39F5411D4A9A7800A3C435 /* EndTrip */ = {
+			isa = PBXGroup;
+			children = (
+				CE299B961D51983800A5F258 /* CheckBoxTableViewCell.swift */,
+				CE299B971D51983800A5F258 /* CheckBoxTableViewCell.xib */,
+				CE1113C11D50CA72005497FC /* EndTripDealerTableViewCell.swift */,
+				CE1113C31D50CAAB005497FC /* EndTripDealerTableViewCell.xib */,
+				CE39F54A1D4A9CBD00A3C435 /* DealerTableViewCell.swift */,
+				CE39F54B1D4A9CBD00A3C435 /* DealerTableViewCell.xib */,
+				CE39F54E1D4A9CDE00A3C435 /* PortCityTableViewCell.swift */,
+				CE39F54F1D4A9CDE00A3C435 /* PortCityTableViewCell.xib */,
+				CEA2AFA81D4B0A620002851B /* SaleInfoTableViewCell.swift */,
+				CEA2AFA91D4B0A620002851B /* SaleInfoTableViewCell.xib */,
+			);
+			name = EndTrip;
+			sourceTree = "<group>";
+		};
+		CE3DA3DC1D62B31500D5E040 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA69FE6D1D406AF60024DA6A /* Fonts */,
+				AA69FE3A1D4065990024DA6A /* AppDelegate.swift */,
+				AA69FE3E1D4065990024DA6A /* Main.storyboard */,
+				AA69FE411D4065990024DA6A /* Assets.xcassets */,
+				AA69FE431D4065990024DA6A /* LaunchScreen.storyboard */,
+				AA69FE461D4065990024DA6A /* Info.plist */,
+				CE3DA3E31D62BEC700D5E040 /* NOAACoreData.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			path = eVTR;
+			sourceTree = "<group>";
+		};
+		CEA5812F14B55BF69C96DEAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2648D08F9783A34010288A0 /* Pods-eVTR.debug.xcconfig */,
+				24D3038B6A7F287524AC197B /* Pods-eVTR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1C3D8C51D6CB3690022E391 /* NSManagerObject */ = {
+			isa = PBXGroup;
+			children = (
+				E1C3D8CA1D6CD2ED0022E391 /* BaseManagedObject.swift */,
+				E1C3D8C81D6CBC470022E391 /* GearEntity.swift */,
+				E1C3D8C61D6CB38B0022E391 /* ActivityEntity.swift */,
+				CE0C7C811D6E25FC00880604 /* ChartAreaEntity.swift */,
+				CE0C7C831D6E276600880604 /* OperatorsEntity.swift */,
+				CE0C7C851D6E278100880604 /* PermitsEntity.swift */,
+				CE0C7C891D6E27A400880604 /* SpeciesEntity.swift */,
+				CE0C7C8B1D6E27BF00880604 /* TripTypesEntity.swift */,
+				CE0C7C8D1D6E27DA00880604 /* DealersEntity.swift */,
+			);
+			name = NSManagerObject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA69FE361D4065980024DA6A /* eVTR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA69FE5F1D4065990024DA6A /* Build configuration list for PBXNativeTarget "eVTR" */;
+			buildPhases = (
+				48B21E1A74DFDCEF248C28F4 /* [CP] Check Pods Manifest.lock */,
+				AA69FE331D4065980024DA6A /* Sources */,
+				AA69FE341D4065980024DA6A /* Frameworks */,
+				AA69FE351D4065980024DA6A /* Resources */,
+				D1D60F24FFFD6FA9DC8A7210 /* [CP] Embed Pods Frameworks */,
+				AB7DEBC2D9A43EC8344031E0 /* [CP] Copy Pods Resources */,
+				CECE184F1D46909100353EFA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eVTR;
+			productName = eVTR;
+			productReference = AA69FE371D4065980024DA6A /* eVTR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA69FE2F1D4065980024DA6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ninthcoast;
+				TargetAttributes = {
+					AA69FE361D4065980024DA6A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AA69FE321D4065980024DA6A /* Build configuration list for PBXProject "eVTR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA69FE2E1D4065980024DA6A;
+			productRefGroup = AA69FE381D4065980024DA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA69FE361D4065980024DA6A /* eVTR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA69FE351D4065980024DA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6F2E5F1D428E3D009F507F /* TripCrewTableViewCell.xib in Resources */,
+				AA69FE771D406B000024DA6A /* calibrib.ttf in Resources */,
+				AA6F2E711D42AE7D009F507F /* AreaTableViewCell.xib in Resources */,
+				AA69FE451D4065990024DA6A /* LaunchScreen.storyboard in Resources */,
+				AA69FED11D4073280024DA6A /* OpenSans-CondLight.ttf in Resources */,
+				AA69FE741D406B000024DA6A /* calibri.ttf in Resources */,
+				AA69FECB1D4073280024DA6A /* OpenSans-BoldItalic.ttf in Resources */,
+				AA6F2E691D42A13B009F507F /* TripReviewTableViewCell.xib in Resources */,
+				AA79F2AC1D40DBCF000ACC22 /* TripTimeTableViewCell.xib in Resources */,
+				AA69FE831D406B000024DA6A /* calibriz.ttf in Resources */,
+				AA79F2A81D40DBBC000ACC22 /* TripDateTableViewCell.xib in Resources */,
+				AA69FEE01D4073280024DA6A /* OpenSans-Light.ttf in Resources */,
+				AA69FF101D407D6A0024DA6A /* TripItemTableViewCell.xib in Resources */,
+				AA69FED41D4073280024DA6A /* OpenSans-CondLightItalic.ttf in Resources */,
+				AA69FEDA1D4073280024DA6A /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				AA69FE7A1D406B000024DA6A /* calibrii.ttf in Resources */,
+				CE1113C41D50CAAB005497FC /* EndTripDealerTableViewCell.xib in Resources */,
+				CE39F5511D4A9CDE00A3C435 /* PortCityTableViewCell.xib in Resources */,
+				AA69FEEC1D4073280024DA6A /* OpenSans-SemiboldItalic.ttf in Resources */,
+				AA69FEE61D4073280024DA6A /* OpenSans-Regular.ttf in Resources */,
+				AA69FE801D406B000024DA6A /* calibrili.ttf in Resources */,
+				AAC0D1A21D465EF400BC3C9E /* CatchInfoTableViewCell.xib in Resources */,
+				CE39F54D1D4A9CBD00A3C435 /* DealerTableViewCell.xib in Resources */,
+				AAAAC5B01D40C848002773E2 /* VesselCollectionViewCell.xib in Resources */,
+				AA69FEE91D4073280024DA6A /* OpenSans-Semibold.ttf in Resources */,
+				AAC0D19A1D465ECA00BC3C9E /* GearInfoTableViewCell.xib in Resources */,
+				AA69FE421D4065990024DA6A /* Assets.xcassets in Resources */,
+				AA69FE401D4065990024DA6A /* Main.storyboard in Resources */,
+				AA69FEC81D4073280024DA6A /* OpenSans-Bold.ttf in Resources */,
+				AA69FEDD1D4073280024DA6A /* OpenSans-Italic.ttf in Resources */,
+				AA6F2E631D428EC3009F507F /* TripAnglerTableViewCell.xib in Resources */,
+				CEA2AFAB1D4B0A620002851B /* SaleInfoTableViewCell.xib in Resources */,
+				AA6F2E5B1D428E29009F507F /* TripTypeTableViewCell.xib in Resources */,
+				AA79F2A21D40D740000ACC22 /* VesselItemTableViewCell.xib in Resources */,
+				AA69FEE31D4073280024DA6A /* OpenSans-LightItalic.ttf in Resources */,
+				AA69FECE1D4073280024DA6A /* OpenSans-CondBold.ttf in Resources */,
+				CE299B991D51983800A5F258 /* CheckBoxTableViewCell.xib in Resources */,
+				AA69FE7D1D406B000024DA6A /* calibril.ttf in Resources */,
+				AAC0D19E1D465EE000BC3C9E /* AreaInfoTableViewCell.xib in Resources */,
+				AA69FED71D4073280024DA6A /* OpenSans-ExtraBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48B21E1A74DFDCEF248C28F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7DEBC2D9A43EC8344031E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eVTR/Pods-eVTR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECE184F1D46909100353EFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" c0b72f565ea8b61b2171aaf616241c448d61497d 8ae20e9d4caab25d6e71e3d5483a93056473bbcd92a7cfa0fe09e6f623d33228";
+		};
+		D1D60F24FFFD6FA9DC8A7210 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eVTR/Pods-eVTR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA69FE331D4065980024DA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA69FE3B1D4065990024DA6A /* AppDelegate.swift in Sources */,
+				E1C3D8C91D6CBC470022E391 /* GearEntity.swift in Sources */,
+				AA69FF0D1D407D6A0024DA6A /* TripItemTableViewCell.swift in Sources */,
+				AAAAC5AF1D40C848002773E2 /* VesselCollectionViewCell.swift in Sources */,
+				CE0C7C8A1D6E27A400880604 /* SpeciesEntity.swift in Sources */,
+				E1C3D8CB1D6CD2ED0022E391 /* BaseManagedObject.swift in Sources */,
+				E1C3D8C41D6CA4030022E391 /* RequestManager.swift in Sources */,
+				CE0C7C861D6E278100880604 /* PermitsEntity.swift in Sources */,
+				AA6F2E651D429E77009F507F /* TripReviewViewController.swift in Sources */,
+				CE0C7C8E1D6E27DA00880604 /* DealersEntity.swift in Sources */,
+				AA6F2E621D428EC3009F507F /* TripAnglerTableViewCell.swift in Sources */,
+				AAC0D1921D46562F00BC3C9E /* GearInputViewController.swift in Sources */,
+				CE39F54C1D4A9CBD00A3C435 /* DealerTableViewCell.swift in Sources */,
+				AAC0D19D1D465EE000BC3C9E /* AreaInfoTableViewCell.swift in Sources */,
+				AA69FEF01D40733C0024DA6A /* Constants.swift in Sources */,
+				AA6F2E701D42AE7D009F507F /* AreaTableViewCell.swift in Sources */,
+				CE0C7C8C1D6E27BF00880604 /* TripTypesEntity.swift in Sources */,
+				CEA2AFAA1D4B0A620002851B /* SaleInfoTableViewCell.swift in Sources */,
+				CE3DA3E51D62BEC700D5E040 /* NOAACoreData.xcdatamodeld in Sources */,
+				AA79F2A71D40DBBC000ACC22 /* TripDateTableViewCell.swift in Sources */,
+				CE34DA3E1D4BB1C70000CB40 /* SearchViewController.swift in Sources */,
+				AA79F2A11D40D740000ACC22 /* VesselItemTableViewCell.swift in Sources */,
+				CE0C7C821D6E25FC00880604 /* ChartAreaEntity.swift in Sources */,
+				AA6F2E551D428CF8009F507F /* TripTypeViewController.swift in Sources */,
+				AA69FEFF1D407D3D0024DA6A /* BaseViewController.swift in Sources */,
+				CE39F53C1D4A54CC00A3C435 /* EndTripReviewViewController.swift in Sources */,
+				AAC0D1991D465ECA00BC3C9E /* GearInfoTableViewCell.swift in Sources */,
+				CE1113C21D50CA72005497FC /* EndTripDealerTableViewCell.swift in Sources */,
+				AA6F2E5A1D428E29009F507F /* TripTypeTableViewCell.swift in Sources */,
+				AAC0D1941D465AC200BC3C9E /* CatchInputViewController.swift in Sources */,
+				CE0C7C841D6E276600880604 /* OperatorsEntity.swift in Sources */,
+				CE1113BE1D50A4AC005497FC /* DateLandedViewController.swift in Sources */,
+				AA79F2AB1D40DBCF000ACC22 /* TripTimeTableViewCell.swift in Sources */,
+				E1C3D8C71D6CB38B0022E391 /* ActivityEntity.swift in Sources */,
+				CEB28E431D5A17EA00BE6610 /* NOAAUser.swift in Sources */,
+				AA6F2E681D42A13B009F507F /* TripReviewTableViewCell.swift in Sources */,
+				CE39F53E1D4A552000A3C435 /* EndTripViewController.swift in Sources */,
+				CE1113C01D50A4F0005497FC /* SalesInfoViewController.swift in Sources */,
+				CE37FC371D64B1ED00A1D824 /* SplashViewController.swift in Sources */,
+				CE39F5401D4A55AA00A3C435 /* SignSubmitViewController.swift in Sources */,
+				AA69FF071D407D470024DA6A /* SignInViewController.swift in Sources */,
+				AA69FF031D407D420024DA6A /* HomeViewController.swift in Sources */,
+				CE39F5501D4A9CDE00A3C435 /* PortCityTableViewCell.swift in Sources */,
+				AA6F2E5E1D428E3D009F507F /* TripCrewTableViewCell.swift in Sources */,
+				AAC0D1A11D465EF400BC3C9E /* CatchInfoTableViewCell.swift in Sources */,
+				AA79F2A41D40D8C6000ACC22 /* SelectDateTimeForTripViewController.swift in Sources */,
+				AAAAC5AB1D40C3EF002773E2 /* SelectVesselViewController.swift in Sources */,
+				AAC0D1961D465D8A00BC3C9E /* EffortReviewViewController.swift in Sources */,
+				CE299B981D51983800A5F258 /* CheckBoxTableViewCell.swift in Sources */,
+				AA6F2E6C1D42A46E009F507F /* AreaInputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA69FE3E1D4065990024DA6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA69FE3F1D4065990024DA6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA69FE431D4065990024DA6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA69FE441D4065990024DA6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA69FE5D1D4065990024DA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA69FE5E1D4065990024DA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA69FE601D4065990024DA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2648D08F9783A34010288A0 /* Pods-eVTR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Derek stock (Y7A639H3N8)";
+				INFOPLIST_FILE = eVTR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninthcoast.eVTR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6fb82e55-ed4e-4a7b-8427-4df451cf2658";
+			};
+			name = Debug;
+		};
+		AA69FE611D4065990024DA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24D3038B6A7F287524AC197B /* Pods-eVTR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Derek stock (Y7A639H3N8)";
+				INFOPLIST_FILE = eVTR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ninthcoast.eVTR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6fb82e55-ed4e-4a7b-8427-4df451cf2658";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA69FE321D4065980024DA6A /* Build configuration list for PBXProject "eVTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA69FE5D1D4065990024DA6A /* Debug */,
+				AA69FE5E1D4065990024DA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA69FE5F1D4065990024DA6A /* Build configuration list for PBXNativeTarget "eVTR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA69FE601D4065990024DA6A /* Debug */,
+				AA69FE611D4065990024DA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE3DA3E31D62BEC700D5E040 /* NOAACoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE3DA3E41D62BEC700D5E040 /* NOAACoreData.xcdatamodel */,
+			);
+			currentVersion = CE3DA3E41D62BEC700D5E040 /* NOAACoreData.xcdatamodel */;
+			path = NOAACoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA69FE2F1D4065980024DA6A /* Project object */;
+}

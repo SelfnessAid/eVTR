@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="206" id="KGk-i7-Jjw" customClass="TripTypeTableViewCell" customModule="eVTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="205"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="204"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trip Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z73-gw-lOX">
+                        <rect key="frame" x="0.0" y="0.0" width="314" height="26"/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="etM-N4-b08"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5As-qg-Sz8">
+                        <rect key="frame" x="21" y="26" width="273" height="170"/>
+                        <connections>
+                            <outlet property="dataSource" destination="KGk-i7-Jjw" id="W0f-y3-Qrs"/>
+                            <outlet property="delegate" destination="KGk-i7-Jjw" id="YyN-e2-NgD"/>
+                        </connections>
+                    </pickerView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5As-qg-Sz8" firstAttribute="top" secondItem="Z73-gw-lOX" secondAttribute="bottom" id="3nc-mL-gBM"/>
+                    <constraint firstItem="5As-qg-Sz8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="21" id="RB8-XD-zgz"/>
+                    <constraint firstItem="Z73-gw-lOX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="RW2-TQ-AxC"/>
+                    <constraint firstAttribute="trailing" secondItem="Z73-gw-lOX" secondAttribute="trailing" id="Uzd-u6-LdB"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="5As-qg-Sz8" secondAttribute="bottom" id="iGt-p0-MjW"/>
+                    <constraint firstAttribute="trailing" secondItem="5As-qg-Sz8" secondAttribute="trailing" constant="20" id="srD-cv-ZxS"/>
+                    <constraint firstItem="Z73-gw-lOX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="st8-or-iDH"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="picker" destination="5As-qg-Sz8" id="8c2-ZQ-hXu"/>
+            </connections>
+            <point key="canvasLocation" x="498" y="313"/>
+        </tableViewCell>
+    </objects>
+</document>

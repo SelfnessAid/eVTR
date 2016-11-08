@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="166" id="KGk-i7-Jjw" customClass="TripCrewTableViewCell" customModule="eVTR" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="314" height="168"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="167"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of Crew" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cmi-Db-LNs">
+                        <rect key="frame" x="0.0" y="0.0" width="314" height="26"/>
+                        <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="Yjn-SK-64C"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LP0-ne-u0R">
+                        <rect key="frame" x="62" y="34" width="40" height="40"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <state key="normal" title="2">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="crewClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="n04-d2-Mtc"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4U6-aQ-MOj">
+                        <rect key="frame" x="112" y="34" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="4U6-aQ-MOj" secondAttribute="height" multiplier="1:1" id="u5u-7l-ufH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <state key="normal" title="6">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="crewClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yjp-pa-sxg"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JaO-fN-Q5Z">
+                        <rect key="frame" x="162" y="34" width="40" height="40"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <state key="normal" title="10">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="crewClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="QsF-D8-o0s"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="24" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKZ-4X-Bgn">
+                        <rect key="frame" x="212" y="34" width="40" height="40"/>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="16"/>
+                        <state key="normal" title="24">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="crewClickAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="UvB-lW-Vrp"/>
+                        </connections>
+                    </button>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter number of crew" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="twn-jB-Xdb">
+                        <rect key="frame" x="14" y="118" width="285" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Mcl-DO-Qu9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGN-He-O3C">
+                        <rect key="frame" x="136" y="77" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="AkY-nE-fh9"/>
+                            <constraint firstAttribute="height" constant="21" id="OjQ-3B-SV6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BKZ-4X-Bgn" firstAttribute="top" secondItem="4U6-aQ-MOj" secondAttribute="top" id="4IS-3w-HsZ"/>
+                    <constraint firstItem="4U6-aQ-MOj" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" constant="-25.5" id="4bG-Ic-tcj"/>
+                    <constraint firstItem="cmi-Db-LNs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5My-oA-wIq"/>
+                    <constraint firstItem="twn-jB-Xdb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="8hX-HX-MsA"/>
+                    <constraint firstItem="cmi-Db-LNs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9nF-8x-5bV"/>
+                    <constraint firstItem="4U6-aQ-MOj" firstAttribute="leading" secondItem="LP0-ne-u0R" secondAttribute="trailing" constant="10" id="Bh0-aA-M3M"/>
+                    <constraint firstItem="4U6-aQ-MOj" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.127" id="Dht-ag-chh"/>
+                    <constraint firstAttribute="trailing" secondItem="twn-jB-Xdb" secondAttribute="trailing" constant="15" id="Hzr-MP-nOA"/>
+                    <constraint firstItem="JaO-fN-Q5Z" firstAttribute="leading" secondItem="4U6-aQ-MOj" secondAttribute="trailing" constant="10" id="NSx-0J-gJ7"/>
+                    <constraint firstItem="xGN-He-O3C" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="RgZ-Fc-7YI"/>
+                    <constraint firstItem="LP0-ne-u0R" firstAttribute="width" secondItem="4U6-aQ-MOj" secondAttribute="width" id="SMs-dB-Iyc"/>
+                    <constraint firstItem="JaO-fN-Q5Z" firstAttribute="top" secondItem="4U6-aQ-MOj" secondAttribute="top" id="Xzs-Ff-UBM"/>
+                    <constraint firstItem="BKZ-4X-Bgn" firstAttribute="leading" secondItem="JaO-fN-Q5Z" secondAttribute="trailing" constant="10" id="Yaa-9V-Qku"/>
+                    <constraint firstItem="LP0-ne-u0R" firstAttribute="height" secondItem="4U6-aQ-MOj" secondAttribute="height" id="Ydu-lO-dEd"/>
+                    <constraint firstItem="JaO-fN-Q5Z" firstAttribute="width" secondItem="4U6-aQ-MOj" secondAttribute="width" id="ZUe-QA-EwW"/>
+                    <constraint firstAttribute="trailing" secondItem="cmi-Db-LNs" secondAttribute="trailing" id="Zn5-PR-xhD"/>
+                    <constraint firstItem="twn-jB-Xdb" firstAttribute="top" secondItem="xGN-He-O3C" secondAttribute="bottom" constant="20" id="bfn-Aw-iu5"/>
+                    <constraint firstItem="BKZ-4X-Bgn" firstAttribute="width" secondItem="4U6-aQ-MOj" secondAttribute="width" id="efH-Zr-ZK8"/>
+                    <constraint firstItem="4U6-aQ-MOj" firstAttribute="top" secondItem="cmi-Db-LNs" secondAttribute="bottom" constant="8" id="gkr-qW-3p4"/>
+                    <constraint firstItem="xGN-He-O3C" firstAttribute="top" secondItem="4U6-aQ-MOj" secondAttribute="bottom" constant="3" id="jr7-1I-QIg"/>
+                    <constraint firstItem="JaO-fN-Q5Z" firstAttribute="height" secondItem="4U6-aQ-MOj" secondAttribute="height" id="klW-U1-TKN"/>
+                    <constraint firstItem="LP0-ne-u0R" firstAttribute="top" secondItem="4U6-aQ-MOj" secondAttribute="top" id="lnl-vH-QeC"/>
+                    <constraint firstItem="BKZ-4X-Bgn" firstAttribute="height" secondItem="4U6-aQ-MOj" secondAttribute="height" id="rG7-d7-pr7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnCrew10" destination="JaO-fN-Q5Z" id="gp8-LO-IdY"/>
+                <outlet property="btnCrew2" destination="LP0-ne-u0R" id="rNP-0c-bAM"/>
+                <outlet property="btnCrew24" destination="BKZ-4X-Bgn" id="fGX-lF-4nU"/>
+                <outlet property="btnCrew6" destination="4U6-aQ-MOj" id="SRR-nD-Bd6"/>
+                <outlet property="crewNumberField" destination="twn-jB-Xdb" id="WCB-0Z-aRH"/>
+            </connections>
+            <point key="canvasLocation" x="444" y="212.5"/>
+        </tableViewCell>
+    </objects>
+</document>

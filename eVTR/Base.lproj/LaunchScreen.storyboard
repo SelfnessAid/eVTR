@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </mutableArray>
+        <mutableArray key="calibrib.ttf">
+            <string>Calibri-Bold</string>
+            <string>Calibri-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TNh-8w-2lO">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOAA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ZWS-kz-4K9">
+                                        <rect key="frame" x="99" y="176" width="65" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="ZWS-kz-4K9" secondAttribute="height" multiplier="13:7" id="9vo-h7-C6x"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="24"/>
+                                        <color key="textColor" red="0.0" green="0.3294117647" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FISHERIES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4xD-9I-dQv">
+                                        <rect key="frame" x="171" y="176" width="105" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="4xD-9I-dQv" secondAttribute="height" multiplier="3:1" id="g7m-n8-u7U"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Calibri-Bold" family="Calibri" pointSize="24"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hVu-JA-Fc7">
+                                        <rect key="frame" x="56" y="476" width="263" height="82"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="hVu-JA-Fc7" secondAttribute="height" multiplier="143:45" id="ZZ9-WL-OGb"/>
+                                        </constraints>
+                                        <string key="text">You may access this application with current versions of Chrome, Firefox or Safari web-browsers.
+Click here to read our privacy policy.
+
+For technical assistance with this website 
+call our IT Service Desk (978) 281-9188.</string>
+                                        <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="11"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="uet-Kj-Slp">
+                                        <rect key="frame" x="127" y="50" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="uet-Kj-Slp" secondAttribute="height" multiplier="1:1" id="sKS-LQ-BFk"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.086274509799999996" green="0.58431372550000005" blue="0.80784313730000001" alpha="0.49617686170000003" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="uet-Kj-Slp" firstAttribute="width" secondItem="TNh-8w-2lO" secondAttribute="width" multiplier="0.32" id="BRj-va-SF9"/>
+                                    <constraint firstItem="ZWS-kz-4K9" firstAttribute="width" secondItem="TNh-8w-2lO" secondAttribute="width" multiplier="0.173" id="FhH-Nj-9zo"/>
+                                    <constraint firstItem="4xD-9I-dQv" firstAttribute="centerY" secondItem="ZWS-kz-4K9" secondAttribute="centerY" id="Fxe-nQ-k3W"/>
+                                    <constraint firstItem="hVu-JA-Fc7" firstAttribute="centerX" secondItem="TNh-8w-2lO" secondAttribute="centerX" id="GBq-to-m9U"/>
+                                    <constraint firstItem="ZWS-kz-4K9" firstAttribute="centerY" secondItem="TNh-8w-2lO" secondAttribute="centerY" multiplier="0.58" id="Hh5-uF-SAD"/>
+                                    <constraint firstItem="4xD-9I-dQv" firstAttribute="centerX" secondItem="TNh-8w-2lO" secondAttribute="centerX" multiplier="1.19" id="JXz-lk-h9v"/>
+                                    <constraint firstItem="ZWS-kz-4K9" firstAttribute="centerX" secondItem="TNh-8w-2lO" secondAttribute="centerX" multiplier="0.7" id="Nj3-jh-hcz"/>
+                                    <constraint firstItem="uet-Kj-Slp" firstAttribute="centerX" secondItem="TNh-8w-2lO" secondAttribute="centerX" id="Y2C-gr-7uQ"/>
+                                    <constraint firstItem="uet-Kj-Slp" firstAttribute="centerY" secondItem="TNh-8w-2lO" secondAttribute="centerY" multiplier="0.33" id="pJg-4e-QRa"/>
+                                    <constraint firstItem="hVu-JA-Fc7" firstAttribute="width" secondItem="TNh-8w-2lO" secondAttribute="width" multiplier="0.7" id="pWb-SE-ncA"/>
+                                    <constraint firstItem="hVu-JA-Fc7" firstAttribute="centerY" secondItem="TNh-8w-2lO" secondAttribute="centerY" multiplier="1.55" id="pbT-JI-cuP"/>
+                                    <constraint firstItem="4xD-9I-dQv" firstAttribute="width" secondItem="TNh-8w-2lO" secondAttribute="width" multiplier="0.28" id="qds-Gh-gEK"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="TNh-8w-2lO" secondAttribute="bottom" id="0x3-S9-yWh"/>
+                            <constraint firstItem="TNh-8w-2lO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="9tk-lA-VU7"/>
+                            <constraint firstItem="TNh-8w-2lO" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JD7-Gk-M4N"/>
+                            <constraint firstAttribute="trailing" secondItem="TNh-8w-2lO" secondAttribute="trailing" id="yUj-2a-njv"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="247" height="247"/>
+    </resources>
+</document>
